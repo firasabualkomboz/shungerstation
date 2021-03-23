@@ -1,6 +1,7 @@
 body{
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     height: 100%;
+    background-color: #FFFFFF;
 }
 html{
     height: 100%;
@@ -165,8 +166,8 @@ font-size: 18px;
 
 /* start div b  */
 .div-b{
-    text-align: cenetr;
-    background-image: linear-gradient(-90deg, rgb(255, 251, 230) 0%, rgba(255, 253, 244, 0) 100%);
+text-align: cenetr;
+background-image: linear-gradient(-90deg, rgb(255, 251, 230) 0%, rgba(255, 253, 244, 0) 100%);
 }
 
 .div-b .div-b-item {
@@ -211,42 +212,56 @@ line-height:48px;
 }
 /* end div b  */
 
-/* start style card  */
-.cards{
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+/* start style type-rest  */
+.type-rest{
+    margin: 20px 20px ;
 }
 
-.item-card{
-    align-items: center;
-    padding: 40px;
-    background-color: rgb(232, 249, 255);
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
+/* end style type-rest */
 
+/* start style card  */
+.cards{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.item-card{
+align-items: center;
+padding: 40px;
+border-radius: 8px;
+width: 100%;
+height: 100%;
+}
+.item-card a .icon-go  {
+width: 10%;
+color: red;
+margin-left: 10px;
+background-color: #FFD700;
+padding: 10px;
+border-radius: 50%;
 }
 .ca-a{
     padding-right: 0;
 }
+.cl-a{
+    background-color: #e4fdf2;
+}
 .ca-b{
     padding-left: 0;
+    background-color: #ebfaff;
 }
 .cl-b{
     background-color: rgb(255, 249, 214);
 }
 .col-auto img {
-    margin-top: 40%;
+margin-top: 40%;
 }
 .cards .row{
 margin-top: 0;
 margin-right:0;
 margin-left:0;
 }
-.item-card  p {
 
-
-}
 .item-card a{
 text-decoration: none;
 color: #000;
@@ -254,12 +269,53 @@ font-weight: bold;
 }
 
 .container-zoom{
-    width: 100%;
-    padding-right: 300px;
-    padding-left: 300px;
-    margin-right: auto;
-    margin-left: auto;
+width: 100%;
+padding-right: 300px;
+padding-left: 300px;
+margin-right: auto;
+margin-left: auto;
 }
+
+/* start app-example */
+.app-example{
+    margin: 20px 0px 20px;
+}
+.app-example .item-example{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.app-example .back-tie-one{
+    background-color: #e4fdf2;
+}
+.app-example .back-tie-two{
+    background-color: #ebfaff;
+}
+
+.app-example .item-example img:firs{
+float: left;
+
+}
+.app-example .item-example .text-item-example{
+    margin: 10px 40px 80px 60px ;
+}
+.app-example .item-example .text-item-example p{
+   line-height: 2.8;
+}
+.app-example .item-example .text-item-example a{
+  float: right;
+  color: #000;
+  text-decoration: none;
+ }
+ .app-example .item-example .text-item-example img{
+    background-color: #FFCF2D;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+   }
+
+/* end app-example */
 
 /* start swip  */
 .swip{
@@ -295,51 +351,53 @@ font-weight: bold;
 
 
 .swipe {
-    overflow: hidden;
-    visibility: hidden;
-    position: relative;
-  }
-  .swipe-wrap {
-    overflow: hidden;
-    position: relative;
-  }
-  .swipe-wrap > div {
-    float: left;
-    width: 100%;
-    position: relative;
-  }
-
+overflow: hidden;
+visibility: hidden;
+position: relative;
+}
+.swipe-wrap {
+overflow: hidden;
+position: relative;
+}
+.swipe-wrap > div {
+float: left;
+width: 100%;
+position: relative;
+}
 
 .owl-theme .owl-nav {
 margin-top: 10px;
 display: none;
 }
 
-.owl-carousel .item h4{
-    text-align: left;
-    margin-top: 16px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
+/* start swip various cuisines  */
 
+.owl-carousel .item h4{
+text-align: left;
+font-size: 18px;
+margin-left: 10px;
+margin-bottom: 20px;
+text-transform: capitalize;
+}
 .owl-carousel {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #FBFBFB;
-    padding: 10px;
-  
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #fff;
 }
 .owl-carousel .item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+/* margin-right: 10px; */
+/* padding: 20px; */
+border-radius: 8px;
+box-shadow: 0 9px 8px rgba(218, 218, 218, 0.3) , 0 9px 8px rgba(218, 218, 218, 0.3) ,0 9px 8px rgba(218, 218, 218, 0.3)  ,0 9px 8px rgba(218, 218, 218, 0.3);
 }
-.owl-carousel .item img {
-    padding: 10px;
-    background-color: #F9F9F9;
+.background-item{
+background-color: red;
+padding: 0;
+margin: 10px 0px 10px;
+border-radius: 8px;
+}
 
-}
+/* end swip various cuisines  */
 
 footer ol {
     list-style: square;
@@ -493,5 +551,31 @@ border: 1px solid #ffd700;
 /* **************************************** END STYLE Why us fish tinder  ************************************************************** */
 
 
+/* **************************************** START STYLE JOIN FISH ************************************************************** */
+/* **************************************** START STYLE JOIN FISH ************************************************************** */
+
+.data-btm-hero{
+    width: 400px;
+ 
+}
+.data-btm-hero{
+    background-color: red;
+    margin: 0 auto;
+}
+
+/* **************************************** END STYLE JOIN FISH ************************************************************** */
+/* **************************************** END   STYLE JOIN FISH ************************************************************** */
 
 
+
+
+/* simple frame work */
+
+.back-text{
+    background-color: #FFCF2D;
+    width: 210px;
+    white-space: nowrap;
+}
+
+
+/* end simple frame work */
