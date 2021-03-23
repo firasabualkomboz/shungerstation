@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 48 48">
+      <image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAL+SURBVHgB1ZpNUttAEIVfj+RVEpB3WQAlTgA5QeAG5AApxycAToC5QTiB7coB4AaBE2BOkAGyyA4RsqM0nR5hC//KsvyD5tuoPBqX+6nfaGZ6TFgAQfMheAfvQHm0A3AI5l2AAnvrtRdrEGlp7yDmm2fEl3/qVY05IRTEBr3m+4fMvAfGHgrA4A4ZOptHzMwC0sANH2HgCc8JofUcx6ezCplJwNaPp5OFBz4EKWrcff1wmrt/nk4fmw+hr/xzgvX2StDPJt7Pkw01rcNW+1+torzrFQZvCe1vbjYfDqZ1zBSw0RbLwLSwRMtkEEB559a2WZ0mWsgGL0+9gRKQNS7GCths/j2Q3JyjRBDUt7va+/Zo+xB2wFr/4W1sk0UkA/vT8MAeGQMS/E+UL3hL4Cs14ooBAdb3cglRUgi0u9V+bAy2dela5xfKT/Rk4u2oXo3shzQDFc87gRsEa0od9T4kGXDo6fdIs5BkoAJvD26RZiERwIoO4RhM9NleyUH7pIiNqspB+6Qku0Be7SpzoZDiXYVkH+smZBAq4vLOvFNRtGPfQiHcJZi6Iys5zgtIJrIIDuO6AK1kOdeBq5AI4Jhv4ShS1ryRmZiczYDUVTuyFoov4CieFIWVlk0BEy7hGLayLbHrl3kg5is4hi3L22siwIf5Dsdep9Y+9poISGxk+AyuwGjpboErXUq4lAWP47ROmgpwJQtScD7VfeXFkdqoVL6uZW4o6S6N9X1tfbu/ZWQ1qoz5glJaiSPPmP3h1hEBSXpMfIyyYaiuxxw5jd0P3NerLRkPuQ/alo31/X197WL8vQw2mo8NOR1505qpDf6utt6YfH8KyUGb8ppY+ZkBR2KbY3nyraxeuY5ZQ6nexUrJwQeFWAF2nePLy0TnOGad6aB7+ZZimYtw9rs+2TLDzPxXg242GvLVGhbGS+B2NaC7Bxd5Kfxnj0SI1FWZ+JCo2MTHLMt45qsigfcoLKCfVIzUKqXuvUPE4eB4YRtcJPc6IviWjelUgIuiQffzH9RRO0bUSUYZAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="ic_twitter" transform="translate(-0.344)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="34" height="34" rx="17" transform="translate(0.344)" fill="url(#pattern)"/>
+    <g id="Icon_" data-name="Icon " transform="translate(10.658 10.659)">
+      <rect id="Area_ICON:feather_twitter_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [ICON:feather/twitter][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="15" height="13" transform="translate(-0.314 0.341)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(0.331 1.077)">
+        <path id="Path" d="M13.879,2.5a6.472,6.472,0,0,1-1.862.907A2.657,2.657,0,0,0,7.356,5.184v.593A6.322,6.322,0,0,1,2.019,3.09S-.353,8.427,4.984,10.8A6.9,6.9,0,0,1,.833,11.985c5.337,2.965,11.86,0,11.86-6.819a2.661,2.661,0,0,0-.048-.492A4.573,4.573,0,0,0,13.879,2.5Z" transform="translate(-0.833 -2.491)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

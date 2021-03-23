@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="ic_checkbox" transform="translate(-414)">
+    <rect id="Area" width="32" height="32" rx="8" transform="translate(414)" fill="#eef1f5"/>
+    <path id="Check" d="M2279.346,1602.008v6.359h11.607" transform="translate(-2321.032 494.658) rotate(-45)" fill="none" stroke="#ffcf2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

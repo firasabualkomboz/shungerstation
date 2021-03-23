@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="34" viewBox="0 0 35 34">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 48 48">
+      <image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMNSURBVHgB1ZpNTttAFMffPBMWLarMoiDUjXMCUpVG3TUQDgAnoD0BcALMDeAETU8AByjg7qq0EuYEmFWV0kU2dJPMTN8bsBWS4CTOB56flEw8GUvv+f3n81nABLiulNyXiFuAzqrWwhOgS/RxNQi3o1lkPgJCUHAlVStYCcIIxkRARtjoBZzf1UJX6LICWbh35ngcZ0Z2IDYchNrresLjUpOydTiqIyM5cLtRPpiC4Y8QWvivz+uHQ7cfptHvSslz5gonoKEEsyGiaKwPEw0c1OBvtbwz58xdztB4xnOcwmWj+m5rUMNUB2431w4U6No0JZOCKwBPjGxTeFJCbDwNiT7kgLR+0deBRrW8ReP4CeQK8WnprP61p7a7gjssa/6ZZJNGkzr22+6O3dMHqPNc5NB4xjUjYRePHGDdU+FBXqGRsLFR9jurEgmZsd4pXEP+ad7JVrEYhE2+SCJAxh+AHbgvcH4vvjARsOjpxyRRMBFwsFABu0iiYBwQQu+CZZDNH01poXwSSEaLaKF8EngXSBJSs1xlThQlnBKSmFbBWoSH/AWWgqBXeRTywF7cgTuynGO9A4BCQxMsBrWw2oEIaesYgr1EqLW+AUtRAFfUie2NgNYQYkGpU7AV5QS4aLZmOgD7CFeCH5GZB2gk+g6WITUcc2kcmG+3j6ybD0g+XBgHWEYK9THYQ43lwz+SpYRNUZDSSc5JEwdsiQIdOB/GT5/pORv9U31/SUUud2lkfLR8Xi921vWsRik827mUEtmkFK53V/c4wOFpA+xDzmgJ8blTOjF99wMr5z9rlD4dOtE2bVj3b87qfVcMqUm+xuaaT9mRZz0zZeNJ9/5T/w/MUnKiDTV+odl6tjmD+364v0RqSGs2ZJr1g+eguqBklQczQYRS4nY/zfe0hBGYuqToqWuai5a//fKHvWXkVw04GuhIn27cgUnxYPi/9sJRMQhGGsIzv+zBjgDKimNOtkXGiU8HvBLOYnhMZgc6iZ0RAkp8WvZw2uclDbhD0uEB778liBvUMrxTr06zGt3Jf+i5QDfDyHH4AAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="ic_google" transform="translate(0.463)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="35" height="34" rx="17" transform="translate(-0.463)" fill="url(#pattern)"/>
+    <g id="Icon_" data-name="Icon " transform="translate(9.976 9.474)">
+      <rect id="Area_ICON:custom_google_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [ICON:custom/google][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="13.027" height="13.027" transform="translate(0.682 0.695)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(0 0)">
+        <path id="Path" d="M17.432,9.061h-.574v-.03h-6.4v2.846h4.022a4.273,4.273,0,1,1-1.189-4.611L15.3,5.254a7.091,7.091,0,1,0,2.132,3.808Z" transform="translate(-3.352 -3.34)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6"/>
+        <path id="Path-2" data-name="Path" d="M5.255,7.151,7.6,8.87a4.275,4.275,0,0,1,6.814-1.6l2.02-2.019a7.128,7.128,0,0,0-11.181,1.9Z" transform="translate(-4.445 -3.335)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6"/>
+        <path id="Path-3" data-name="Path" d="M11.522,29.071a7.107,7.107,0,0,0,4.788-1.854L14.1,25.348a4.273,4.273,0,0,1-6.606-1.97L5.167,25.173A7.135,7.135,0,0,0,11.522,29.071Z" transform="translate(-4.393 -14.841)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6"/>
+        <path id="Path-4" data-name="Path" d="M27,16.7h-.575v-.029H20v2.856h4.036a4.3,4.3,0,0,1-1.459,1.989h0l2.21,1.87A6.907,6.907,0,0,0,27.14,18.1,7.163,7.163,0,0,0,27,16.7Z" transform="translate(-12.922 -11.005)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>
