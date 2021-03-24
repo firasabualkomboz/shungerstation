@@ -47,24 +47,47 @@ margin-right: 5px;
 
 @media only screen and (max-width: 600px) {
 
-.nu-nav .logo-brand img {
-
-}
-.nu-nav .item-nu-nav {
-
-}
-
 .nu-nav .item-nu-nav ol li a {
 font-size: 12px;
 margin-right: 10px;
 }
 .nu-nav .item-nu-nav ol li a::before{
-    font-family: "Font Awesome 5 Free";
-    content: "|";
-    margin-right: 5px;
-    }
+font-family: "Font Awesome 5 Free";
+content: "|";
+margin-right: 5px;
+}
 
-  }
+}
+/* start nav  */
+
+.bg-light{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.navbar ol {
+list-style: none;
+margin: 0;
+}
+
+.navbar ol li {
+margin-right: 10px;
+display: inline;
+font-size: 18px;
+}
+.navbar ol li a {
+text-decoration: none;
+color: #434340;
+}
+.navbar ol li a .fa-shopping-cart{
+color: #434340;
+}
+
+.navbar ol li .bef::before{
+font-family: "Font Awesome 5 Free";
+content: "|";
+margin-right: 5px;
+}
+
 
 /* end tyle nav bar  */
 
@@ -410,7 +433,7 @@ footer ul li {
 margin-right: 0px;
 }
 footer ul li img {
-width: 20%;
+width: 10%;
 }  
 }
 footer ul{
@@ -808,6 +831,5 @@ margin-bottom: 40px;
 
 /* **************************************** END STYLE Company Information ************************************************************** */
 /* **************************************** END STYLE Company Information ************************************************************** */
-
 
 
