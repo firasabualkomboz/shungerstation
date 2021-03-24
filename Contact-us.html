@@ -28,24 +28,24 @@
 </head>
 <body>
 
-<!-- start nav bar  -->
+
+<!-- new nav bar  -->
 <div id="navbar" class="nu-nav">
 <div class="container">
 
 <div class="row">
 <div class="col-4">
 <div class="logo-brand">
-<a href=""><img src="imgs/logo.svg" alt=""></a>
+<a href=""><img src="imgs/ic_logo.svg" alt=""></a>
 </div>
 </div>
 
 <div class="col-8">
 <div class="item-nu-nav">
 <ol>
-<li><a href=""><img src="imgs/sa.svg" alt=""></a></li>
-<li><a href="">عربي</a></li>
-<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-<li><a href="">Login</a></li>
+<li><a href="#"><img src="imgs/ic_shopping_basket.svg" alt=""></a></li>
+<li><a class="bef" href="">عربي</a></li>
+<li><a class = "bef" href=""><i><img class="img-user" src="imgs/45m.png" alt=""></i> User</a></li>
 </ol>
 </div>
 </div>
@@ -56,32 +56,24 @@
 </div>
 <!-- end new nav bar  -->
 
-<!-- click back  -->
-<div class="btn-back">
-<div class="container">
-<i class="fa fa-user"></i> <a href="">back</a>
-</div>
-</div>
-
-<!-- end click back  -->
-
-
 <!-- our location  -->
 
 <div class="our-location">
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-            this is a img
-            </div>
-            <div class="col-6">
-                <h4>thisis is a street </h4>
-                <p>this is a data out location </p>
-                <p>gaza in 2021 </p>
-                <button><a href="">google map </a></button>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<div class="row">
+<div class="col-6">
+<div id="map"></div>
+</div>
+<div class="col-6">
+<ol>
+<li class="li-active">King Abdul Aziz Road</li>
+<li>Backyard building</li>
+<li>Al Yasmin, 2467, Riyadh 13326</li>
+<li>Saudi Arabia </li>
+</ol>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -91,211 +83,192 @@
 <!-- form contact  -->
 
 <div class="form-contact">
-    <div class="container">
-        <h4>now cotact us </h4>
-        <p>do you love me </p>
+<div class="container">
+<h4>Contact us! </h4>
+<p>Questions? Suggestions? Feel free to contact us. </p>
 
-        <!-- start form  -->
+<!-- start new row  -->
 
-        <div class="row">
-            <div class="col-lg-8">
-                <form action="">
+<div class="row">
+<div class="col-lg-3">
 
-                    <div class="row g-2">
+<div class="mb-3">
+<label for="exampleInputEmail1" class="form-label">Name</label>
+<input placeholder="Ahmed" type="text" class="form-control">
+</div>
 
-                        <div class="col-md">
-                            <select class="form-select" id="validationCustom04" required>
-                                <option selected disabled value="">subject</option>
-                                <option>...</option>
-                              </select>
-                              
-                        </div>
+<div class="mb-3">
+<label for="exampleInputEmail1" class="form-label">Email</label>
+<input placeholder="Ahmed@gmail.com" type="email" class="form-control">
+</div>
 
-                        <div class="col-md">
-                            <select class="form-select" id="validationCustom04" required>
-                                <option selected disabled value="">whats yourr .</option>
-                                <option>...</option>
-                              </select>
-                             
-                        </div>
-                 
+<div class="mb-3">
+<label for="exampleInputEmail1" class="form-label">Subject</label>
+<select  class="form-select" id="validationCustom04" required>
+<option selected disabled value="">Suggestions</option>
+<option>...</option>
+</select>
+</div>
 
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">name</label>
-                          </div>
-
-                          <div class="col-md">
-                            <select class="form-select" id="validationCustom04" required>
-                                <option selected disabled value=""> ++970 </option>
-                                <option>...</option>
-                              </select>
-                             
-                        </div>
-                        
-                          <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">number phone </label>
-                          </div>
+<div class="mb-3">
+<p>By making this action you agree to our  Terms
+and Conditions  and  Privacy Policy </p>
+</div>
 
 
-                          <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">email </label>
-                          </div>
+</div>
 
-                          
-                          <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Comments</label>
-                          </div>
+<div class="col-lg-5">
 
+<div class="mb-3">
+<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+<textarea placeholder="Write your Message" style="resize: none;" class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+</div>
 
-                          <p>this is your yes this is a true </p>
-                          <button>ok i am a gree </button>
-                      </div>
+<div class="mb-3 btn-form">
+<button class="btn-Send">Send</button>
+</div>
 
-     
-        
-                </form>
+</div>
+</div>
 
-            </div>
-        </div>
+<!-- end new row -->
 
-        <!-- end form -->
-    </div>
+</div>
 </div>
 
 
 <!-- end form contact -->
-<hr>
+
 <!-- start ads  -->
 
 <div class="ads">
-<div class="container">
-<div class="row">
-
-<div class="col-6">
-<h3>order your food anytime, anywhere with just couple of clicks</h3>
-</div>
-
-<div class="col-6">
-<ol class="list-unstyled">
-<li><a href=""><img src="imgs/downloadiphone.png" alt=""></a></li>
-<li><a href=""><img src="imgs/downloadiphone.png" alt=""></a></li>
-</ol>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- end ads  -->
-<hr>
-<!-- start footer -->
+    <div class="container">
+    <hr>
+    <div class="row">
+    <div class="col-lg-3">
+    <h2>Download the App</h2>
+    </div>
+    
+    <div class="col-lg-4">
+    <p>order your food anytime, anywhere with just couple of clicks</p>
+    </div>
+    
+    <div class="col-lg-5">
+    <ol class="list-unstyled">
+    <li><a href=""><img src="imgs/App Store - eng.svg" alt=""></a></li>
+    <li><a href=""><img src="imgs/Google Play - eng.svg" alt=""></a></li>
+    </ol>
+    </div>
+    </div>
+    <hr>
+    </div>
+    </div>
+    </div>
+    
+    <!-- end ads  -->
+    
+    
+<!-- START FOOTER -->
 
 <footer>
 <div class="container">
 <div class="row">
-<div class="col-lg-3">
-
-<h4>HungerStation</h4>
-<ol>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-
-</ol>
+<div class="col-lg-4">
+<a class="link-logo" href=""><img src="imgs/ic_logo.svg" alt=""></a>
+<br>
+<br>
+<p>The first Saudi Food delivery App in the region! Browse the largest selection of restaurants and supermarkets in your city. The list is updated daily with dozens of internationally established brands </p>
 </div>
 
-<div class="col-lg-3">
+<div class="col-lg-2">
 
-<h4>HungerStation</h4>
+<h4>FishTender</h4>
 <ol>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
+<li><a href="">About us</a></li>
+<li><a href="">Become a rider</a></li>
+<li><a href="">Add your business</a></li>
+<li><a href="">Quick Market</a></li>
 
 </ol>
 
 </div>
 
-<div class="col-lg-3">
+<div class="col-lg-2">
 
-
+<h4>Our regions</h4>
 <ol>
-<h4>HungerStation</h4>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
+<li><a href="">Dammam</a></li>
+<li><a href="">Jeddah</a></li>
+<li><a href="">Riyadh</a></li>
+<li><a href="">Al Khobar</a></li>
+<li><a href="">View All..</a></li>
 
 </ol>
 
 </div>
 
 
-<div class="col-lg-3">
+<div class="col-lg-2">
 
-
+<h4>Our Partners</h4>
 <ol>
-<h4>HungerStation</h4>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
-<li><a href="">About</a></li>
+<li><a href="">McDonald's KSA</a></li>
+<li><a href="">TGI Fridays</a></li>
+<li><a href="">Krispy Kreme Doughnuts</a></li>
+<li><a href="">Canton</a></li>
+<li><a href="">View All..</a></li>
+
+</ol>
+
+</div>
+
+<div class="col-lg-2">
+
+<h4>Help</h4>
+<ol>
+
+<li><a href="">FAQs</a></li>
+<li><a href="">Terms of use</a></li>
+<li><a href="">Privacy Policy</a></li>
+<li><a href="">Contact us</a></li>
+
 
 </ol>
 
 </div>
 
 </div>
+
+<div class="copyright">
+<div class="row">
+<div class="col-6">
+<p>©<script>document.write(new Date().getFullYear());</script> Fish Tender. </p>
 </div>
+<div class="col-6">
+<ul>
+<li><a href=""><img src="imgs/icon/Circle Button.png" alt=""></a></li>
+<li><a href=""><img src="imgs/icon/Circle Button-1.png" alt=""></a></li>
+<li><a href=""><img src="imgs/icon/Circle Button-2.png" alt=""></a></li>
+<li><a href=""><img src="imgs/icon/Circle Button-3.png" alt=""></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+</div> <!--end container-->
 </footer>
 
 <!-- end footer -->
 
 
-<!-- start copyright -->
-
-<div class="copy-right">
-
-<div class="container">
-<div class="row">
-<div class="col-8">
-@2020fishtender
-</div>
-<div class="col-4">
-<ol>
-<li><a href=""><i class="fa fa-edit"></i></a></li>
-<li><a href=""><i class="fa fa-edit"></i></a></li>
-<li><a href=""><i class="fa fa-edit"></i></a></li>
-<li><a href=""><i class="fa fa-edit"></i></a></li>
-</ol>
-</div>
-</div>
-
-</div>
-
-</div>
-<hr>
-
-<!-- end copyright -->
-
-
 
 <!-- js file  -->
-
+<script
+src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+async
+></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 

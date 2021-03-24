@@ -365,7 +365,7 @@ box-shadow: 0 9px 8px rgba(218, 218, 218, 0.3) , 0 9px 8px rgba(218, 218, 218, 0
         display: none;
     }
   }
-  
+
 
 
 /* end swip various cuisines  */
@@ -516,6 +516,41 @@ border: 1px solid #ffd700;
 
 /* **************************************** START STYLE Privacy policy ************************************************************** */
 /* **************************************** START STYLE Privacy policy ************************************************************** */
+.question{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.list-ques{
+    padding: 20px;
+    border: solid 1px #E2E2E2;
+}
+.list-ques ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-ques ol li{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.list-ques ol .qurs-active{
+background-color: #ffd700;
+padding: 10px;
+border-radius: 4px;
+color: #434340;
+}
+.list-ques ol li:hover{
+    background-color: #ffd700;
+    padding: 10px;
+    border-radius: 4px;
+    color: #434340;
+    transition: all .3s .3s;
+}
+
+.list-ques ol  li a {
+color: #949494;
+text-decoration: none;
+}
 .accordion-button:not(.collapsed) {
      color: #000; 
     background-color:#fff; 
@@ -528,14 +563,66 @@ border: 1px solid #ffd700;
     border-width: 0 1px;
 }
 
+.accordion-button:not(.collapsed)::after {
+background-image: url(../imgs/ic_close.svg);
+transform: rotate(
+180deg
+);
+}
+.accordion-button::after {
+    background-image: url(../imgs/ic_open.svg);
+}
+
+.accordion-button:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
 /* **************************************** START STYLE CONTACT US  ************************************************************** */
 /* **************************************** START STYLE CONTACT US  ************************************************************** */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
 
 .our-location  {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.our-location ol li {
+    list-style: none;
+    color: #949494;
+}
+.our-location ol .li-active{
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #434340;
+}
+.form-contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+form textarea{
+
+}
+.btn-form{
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+    .btn-form{
+        float: left;
+    }
+}
+.btn-Send{
+    background-color: #FFD700;
+    color: #434340;
+    padding: 8px 58px 8px 58px;
+    border: none;
+    border-radius: 4px;
+}
 
 /* **************************************** END STYLE CONTACT US  ************************************************************** */
 /* **************************************** END STYLE CONTACT US  ************************************************************** */
@@ -544,12 +631,38 @@ border: 1px solid #ffd700;
 
 /* **************************************** START STYLE Why us fish tinder  ************************************************************** */
 /* **************************************** START STYLE Why us fish tinder  ************************************************************** */
+.our-fish h4 {
+margin-bottom: 20px;
+}
+.our-fish img {
+width: 100%;
+}
 
+.why-us-fish{
+margin-top: 20px;
+margin-bottom: 20px;
+}
 .why-us-fish ol li {
     display: inline-block;
 }
 .why-us-fish img{
     width: 100%;
+}
+.why-us-fish h4 {
+    margin-top: 20px;   
+    margin-bottom: 20px;   
+}
+.why-us-fish button{
+background: rgb(217,242,231);
+background: linear-gradient(90deg, rgba(217,242,231,1) 37%, rgba(255,255,255,1) 52%);
+padding: 8px 24px 8px 24px;
+border: solid #E2E2E2 1px;
+border-radius: 4px;
+margin-bottom: 10px;
+box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+.why-us-fish .about-step p {
+    color: #a5a5a4;
 }
 /* **************************************** END STYLE Why us fish tinder  ************************************************************** */
 /* **************************************** END STYLE Why us fish tinder  ************************************************************** */
@@ -568,7 +681,7 @@ border: 1px solid #ffd700;
 }
 
 /* **************************************** END STYLE JOIN FISH ************************************************************** */
-/* **************************************** END   STYLE JOIN FISH ************************************************************** */
+/* **************************************** END STYLE JOIN FISH ************************************************************** */
 
 
 
@@ -585,4 +698,116 @@ hr{
 }
 
 /* end simple frame work */
+
+
+/* **************************************** START STYLE TERMS ************************************************************** */
+/* **************************************** START STYLE TERMS ************************************************************** */
+.about-terms{
+    text-transform: capitalize;
+}
+
+.about-terms img {
+width: 70%;
+float: right;
+}
+
+.text-data{
+margin-bottom: 20px;
+margin-right: 20px;
+margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+
+.text-data{
+margin-top: 0px;
+}
+.about-terms img {
+    width: 70%;
+float: none;
+}
+
+}
+
+.data-terms{
+margin-bottom: 40px;
+}
+
+/* **************************************** END STYLE TERMS ************************************************************** */
+/* **************************************** END STYLE TERMS ************************************************************** */
+
+
+
+
+/* **************************************** START STYLE Company Information ************************************************************** */
+/* **************************************** START STYLE Company Information ************************************************************** */
+
+.progressbar {
+    counter-reset: step;
+    margin-left: -167px;
+  }
+  .progressbar li {
+    list-style: none;
+    display: inline-block;
+    width: 30.33%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  .progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    background-color: #fff;
+  }
+  .progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+  }
+  .progressbar li:first-child:after {
+    content: none;
+  }
+  .progressbar li.active {
+    color: #FCE185;
+  }
+  .progressbar li.active:before {
+    border-color: #D6BF73;
+    background-color: #FCE185;
+    color: white;
+  }
+  .progressbar li.active + li:after {
+    background-color: #FFCF2D;
+  }
+  
+.comp-info-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.back-left-company{
+    /* width: 100%;
+    background-repeat: no-repeat;
+    background-image:url(../imgs/photo/person-company.jpg) ; */
+    /* background-position: center;
+    background-size: cover;
+    position: relative; */
+
+}
+
+/* **************************************** END STYLE Company Information ************************************************************** */
+/* **************************************** END STYLE Company Information ************************************************************** */
+
+
 
