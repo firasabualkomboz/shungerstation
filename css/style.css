@@ -151,6 +151,7 @@ text-align:center;
     padding:10px 40px 10px 40px;
 }
 
+
  /* .back{
 background-image: url('../imgs/mainback.jpg');
 min-height: 50vh;
@@ -167,6 +168,10 @@ font-size: 18px;
 } */
 
   }
+
+
+
+
 /* end  style hero image  */
 
 /* start div b  */
@@ -229,13 +234,6 @@ text-align: left;
 }
 /* end div b  */
 
-
-/* start style type-rest  */
-.type-rest{
-    margin: 20px 20px ;
-}
-
-/* end style type-rest */
 
 
 /* start app-example */
@@ -334,6 +332,11 @@ width: 100%;
 position: relative;
 }
 
+/* start style type-rest  */
+.type-rest{margin: 20px 20px 0px 20px;}
+
+/* end style type-rest */
+
 .owl-theme .owl-nav {
 margin-top: 10px;
 display: none;
@@ -341,30 +344,29 @@ display: none;
 
 /* start swip various cuisines  */
 
+.owl-carousel {
+margin: 20px;
+padding: 20px;
+text-transform: capitalize;
+background-color: #fff;
+}
 .owl-carousel .item h4{
 text-align: left;
 font-size: 18px;
-margin-left: 10px;
-margin-bottom: 20px;
-text-transform: capitalize;
+margin-left:20px;
 }
-.owl-carousel {
-margin-top: 10px;
-margin-bottom: 10px;
-background-color: #fff;
-}
+
 .owl-carousel .item {
-/* margin-right: 10px; */
-/* padding: 20px; */
 border-radius: 8px;
 box-shadow: 0 9px 8px rgba(218, 218, 218, 0.3) , 0 9px 8px rgba(218, 218, 218, 0.3) ,0 9px 8px rgba(218, 218, 218, 0.3)  ,0 9px 8px rgba(218, 218, 218, 0.3);
 }
-.background-item{
-background-color: red;
-padding: 0;
-margin: 10px 0px 10px;
-border-radius: 8px;
-}
+@media only screen and (max-width: 600px) {
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+        display: none;
+    }
+  }
+  
+
 
 /* end swip various cuisines  */
 
