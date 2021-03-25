@@ -835,3 +835,100 @@ font-size: 22px;
 /* **************************************** END STYLE Company Information ************************************************************** */
 
 
+
+/* **************************************** START STYLE Restaurant Information ************************************************************** */
+/* **************************************** START STYLE Restaurant Information ************************************************************** */
+.progressbar {
+counter-reset: step;
+margin-left: -150px;
+}
+.progressbar li {
+list-style: none;
+display: inline-block;
+width: 30.33%;
+position: relative;
+text-align: center;
+cursor: pointer;
+}
+.progressbar li:before {
+content: counter(step);
+counter-increment: step;
+width: 30px;
+height: 30px;
+line-height: 30px;
+border: 1px solid #ddd;
+border-radius: 100%;
+display: block;
+text-align: center;
+margin: 0 auto 10px auto;
+background-color: #fff;
+}
+.progressbar li:after {
+content: "";
+position: absolute;
+width: 100%;
+height: 1px;
+background-color: #ddd;
+top: 15px;
+left: -50%;
+z-index: -1;
+}
+.progressbar li:first-child:after {
+content: none;
+}
+.progressbar li.active {
+color: #FCE185;
+}
+.progressbar li.active:before {
+border-color: #D6BF73;
+background-color: #FCE185;
+color: white;
+}
+.progressbar li.active + li:after {
+background-color: #FFCF2D;
+}
+
+.comp-info-card{
+margin-top: 120px;
+margin-bottom: 20px;
+}
+.comp-info-card .row:first-child{
+border-radius: 4px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back-left-company img{
+width: 100%;
+}
+.text-in-lc img {
+width: 5%;
+position: absolute;
+left: -5%;
+}
+.text-in-lc{
+color: #fff;
+position: absolute;
+left: 10%;
+top: 30%;
+font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+
+}
+.form-all-right{
+margin-top: 20px;
+}
+.form-all-right button{
+margin-top: 20px;
+background-color: #F9D96A;
+color: #434340;
+border: none;
+border-radius: 4px;
+padding: 8px 100px 8px 100px;
+
+}
+
+/* **************************************** END STYLE Restaurant Information ************************************************************** */
+/* **************************************** END STYLE Restaurant Information ************************************************************** */
+
+    
