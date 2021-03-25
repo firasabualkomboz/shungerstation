@@ -9,7 +9,7 @@ html{
 
 /* start style navbar  */
 
-.nu-nav{
+/* .nu-nav{
 margin-top: 20px;
 margin-bottom: 20px;
 border-bottom: #EEF1F5 solid 1px;
@@ -57,12 +57,11 @@ content: "|";
 margin-right: 5px;
 }
 
-}
+} */
 /* start nav  */
 
 .bg-light{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navbar ol {
 list-style: none;
@@ -92,8 +91,9 @@ margin-right: 5px;
 /* end tyle nav bar  */
 
 .hero-image {
+margin-top: 7%;
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/photo/15-10000\ restaurants.jpg");
-height: 50%;
+height: 70%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -117,10 +117,13 @@ text-align: center;
 }
 .hero-text p{
 font-size: 36px;
-
 }
 @media only screen and (max-width: 600px) {
-
+    .hero-image {
+        margin-top: 28%;
+        height: 50%;
+  
+        }
 .hero-text h2 {
 font-size: 46px;
 }
@@ -138,7 +141,7 @@ border-color:#767676;
 border-radius:8px;
 padding:10px 150px 10px 150px;
 border: #FFD700 solid 1px;
-  }
+}
 
 .hero-text button a{
 color: #434340;
@@ -155,15 +158,6 @@ height: 100%;
 left: 0;
 top: 0;
 }
-.inform .btn-order{
-background-color:#ffd700;
-text-decoration: none;
-color: #434340;
-border-color:#767676;
-border-radius:8px;
-padding:10px 50px;
-text-align:center;
-}
 @media only screen and (max-width: 600px) {
 .inform p {
     text-align: 8px;
@@ -173,22 +167,6 @@ text-align:center;
 .hero-text button{
     padding:10px 40px 10px 40px;
 }
-
-
- /* .back{
-background-image: url('../imgs/mainback.jpg');
-min-height: 50vh;
-background-size: cover;
-position: relative;
-}  */
-
-/* .inform p{
-font-size: 16px;
-}
-
-.inform h6{
-font-size: 18px;
-} */
 
   }
 
@@ -766,7 +744,7 @@ margin-bottom: 40px;
 
 .progressbar {
     counter-reset: step;
-    margin-left: -167px;
+    margin-left: -150px;
   }
   .progressbar li {
     list-style: none;
@@ -815,17 +793,31 @@ margin-bottom: 40px;
   }
   
 .comp-info-card{
-    margin-top: 20px;
+    margin-top: 120px;
     margin-bottom: 20px;
 }
 
 .back-left-company{
-    /* width: 100%;
-    background-repeat: no-repeat;
-    background-image:url(../imgs/photo/person-company.jpg) ; */
-    /* background-position: center;
-    background-size: cover;
-    position: relative; */
+position: relative;
+background-repeat: no-repeat;
+background-image:url(../imgs/photo/person-company.jpg) ; 
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.text-in-lc img {
+    width: 5%;
+    position: absolute;
+   left: -5%;
+}
+.text-in-lc{
+color: #fff;
+position: absolute;
+left: 10%;
+top: 10%;
+font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
 
 }
 
