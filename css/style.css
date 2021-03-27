@@ -1017,6 +1017,11 @@ padding: 20px;
 box-shadow:20px 20px 50px rgb(230, 228, 228);
 
 }
+.verify-card .form-select {
+    border: #fff;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
 .newclass1{
 margin: 0 auto 0 0 ;
 }
