@@ -1007,6 +1007,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 
+/* **************************************** START STYLE Verify your phone number ************************************************************** */
+/* **************************************** START STYLE Verify your phone number ************************************************************** */
+
 .verify-card{
 margin-top: 120PX;
 margin-bottom: 80PX;
@@ -1015,15 +1018,19 @@ margin-bottom: 80PX;
 margin:  0 0 0 auto;
 padding: 20px;
 box-shadow:20px 20px 50px rgb(230, 228, 228);
-
 }
 .verify-card .form-select {
-    border: #fff;
-    border-bottom: 1px solid #ced4da;
-    border-radius: 0;
+border: #fff;
+border-bottom: 1px solid #ced4da;
+border-radius: 0;
 }
 .newclass1{
 margin: 0 auto 0 0 ;
+background-image: url(../imgs/photo/Verify.jpg);
+ background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
 .form-verify button{
@@ -1050,14 +1057,14 @@ margin: 0 auto 0 0 ;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-section{
-    width: 800px;
-    margin: 0 auto;
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-}
 .form-verify{
     padding: 20px;
 }
+
+/* **************************************** END STYLE Verify your phone number ************************************************************** */
+/* **************************************** END STYLE Verify your phone number ************************************************************** */
+
+
 
 /* **************************************** START STYLE PROFILE MENU ************************************************************** */
 /* **************************************** START STYLE PROFILE MENU ************************************************************** */
