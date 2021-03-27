@@ -518,7 +518,7 @@ border: 1px solid #ffd700;
 /* **************************************** START STYLE Privacy policy ************************************************************** */
 /* **************************************** START STYLE Privacy policy ************************************************************** */
 .question{
-    margin-top: 40px;
+    margin-top: 120px;
     margin-bottom: 40px;
 }
 .list-ques{
@@ -581,49 +581,41 @@ transform: rotate(
 
 /* **************************************** START STYLE CONTACT US  ************************************************************** */
 /* **************************************** START STYLE CONTACT US  ************************************************************** */
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
-
-.our-location  {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.our-location ol li {
-    list-style: none;
-    color: #949494;
-}
-.our-location ol .li-active{
-    margin-bottom: 10px;
-    font-size: 22px;
-    color: #434340;
-}
-.form-contact{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-form textarea{
-
-}
-.btn-form{
-    float: right;
+.contact-us .shadow{
+padding: 20px;
 }
 @media only screen and (max-width: 600px) {
-    .btn-form{
-        float: left;
-    }
+
+.cont-us-photo{
+display: none;
+border: red solid 20px;
+}
+}
+
+.form-contact{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.btn-form{
+float: right;
+}
+@media only screen and (max-width: 600px) {
+.btn-form{
+float: left;
+}
 }
 .btn-Send{
-    background-color: #FFD700;
-    color: #434340;
-    padding: 8px 58px 8px 58px;
-    border: none;
-    border-radius: 4px;
+background-color: #FFD700;
+color: #434340;
+padding: 8px 58px 8px 58px;
+border: none;
+border-radius: 4px;
 }
+.btn-Send a{
+color: #434340;
+text-decoration: none;
+}
+
 
 /* **************************************** END STYLE CONTACT US  ************************************************************** */
 /* **************************************** END STYLE CONTACT US  ************************************************************** */
@@ -703,6 +695,9 @@ hr{
 
 /* **************************************** START STYLE TERMS ************************************************************** */
 /* **************************************** START STYLE TERMS ************************************************************** */
+.terms{
+    margin-top: 130px;
+}
 .about-terms{
     text-transform: capitalize;
 }
@@ -723,13 +718,14 @@ margin-top: 50px;
 margin-top: 0px;
 }
 .about-terms img {
-    width: 70%;
+    width: 100%;
 float: none;
 }
 
 }
 
 .data-terms{
+
 margin-bottom: 40px;
 }
 
