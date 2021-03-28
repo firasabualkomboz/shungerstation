@@ -1555,41 +1555,42 @@ float: right;
 /* start style my order */
 
 .my-order{
-    margin-top: 120px;
+margin-top: 120px;
 }
 .my-order .list-my-order{
-    padding: 10px;
-    background-color: #F9D96A;
-    border-radius: 4px;
-    padding-bottom: 150px;
+padding: 10px;
+background-color: #F9D96A;
+border-radius: 4px;
+padding-bottom: 150px;
 }
 .my-order .list-my-order  span{
 
 }
 .my-order .list-my-order ol {
-   margin-top: 40px;
+margin-top: 40px;
 }
 .my-order .list-my-order ol h4{
-    margin-bottom: 30px;
- }
- .my-order .list-my-order ol h4 span{
+margin-bottom: 30px;
+}
+.my-order .list-my-order ol h4 span button{
 border-radius: 50%;
-font-size: 32px;
-width: 34px;
-height: 34px;
-padding: 10px;
-background: #fff;
-color: #000;
 text-align: center;
- }
+background-color: #fff;
+color: #434340;
+border: #000 solid 1px;
+}
 .my-order .list-my-order li{
 list-style: none;
 }
+.my-order .form-check-input:checked {
+background-color: #434340;
+border-color: #434340;
+}
 
 .my-order .table-my-order{
-    padding: 20px;
-    text-align: center;
-    
+padding: 20px;
+text-align: center;
+
 }
 .my-order .table-my-order table thead{
     border-bottom: solid #AEAEAC 1px;
@@ -1601,8 +1602,6 @@ list-style: none;
 font-weight: 400;
 }
 .my-order .table-my-order table tr {
-
-
     }
 .my-order .table>:not(caption)>*>* {
     padding: .5rem .5rem;
@@ -1611,16 +1610,26 @@ font-weight: 400;
 .my-order .table-my-order table tr{
 color: #434340;
 }
+.modal-my-order .table
+{
+}
+.modal-my-order table thead{
+    border-bottom: solid #AEAEAC 1px;
+}
+.modal-my-order table thead th{
+    font-weight: 400;
+}
+.modal-my-order table tbody th{
+font-weight: 400;
+}
+.modal-my-order table tr {
+    }
+    .modal-my-order .table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    border-bottom-width: 0px;
+}
+.modal-my-order table tr{
+color: #434340;
+}
 
-.circle {
-    border-radius: 50%;
-    width: 34px;
-    height: 34px;
-    padding: 10px;
-    background: #fff;
-    border: 3px solid #000;
-    color: #000;
-    text-align: center;
-    font: 32px Arial, sans-serif;
-  }
 /* end style my order */
