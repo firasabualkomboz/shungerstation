@@ -1282,9 +1282,6 @@ border: solid #DEDEDE 2px;
 .checkout{
 margin-top: 130px;
 }
-.checkout .first-card{
-
-}
 .added-checkout{
 padding: 40px 60px 140px 60px ;
 margin-bottom: 20px;
@@ -1356,13 +1353,101 @@ float: right;
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 
-/* **************************************** START STYLE CHECKOUT  ************************************************************** */
-/* **************************************** START STYLE CHECKOUT  ************************************************************** */
+/* **************************************** START STYLE CHECKOUT NO CARD  ************************************************************** */
+/* **************************************** START STYLE CHECKOUT NO CARD  ************************************************************** */
+.checkout-no-card{
+margin-top: 130px;
+}
+@media only screen and (max-width: 1200px) {
+.checkout-no-card .progressbar{
+margin-left: -40px;
+}
+}
+.added-checkout-no-card{
+padding: 40px 60px 140px 60px ;
+margin-bottom: 20px;
+border-radius: 4px;
+}
+
+.added-checkout-no-card ol {
+    padding: 0;
+    margin: 0;
+}
+.added-checkout-no-card ol li {
+  display: inline;
+}
+.added-checkout-no-card ol li:last-child{
+    float: right;
+}
+.added-checkout-no-card ol li .btn-add-card{
+border: none;
+background-color: #FDFDFD;
+border: #E1E1E1 solid 1px;
+border-radius: 4px;   
+padding: 10px;
+}
+.about-card-no-check{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) 
+
+{
+    .added-checkout-no-card ol li {
+        display: inline-block;
+        
+      }
+
+.added-checkout-no-card ol li:last-child{
+/* float: left; */
+}
+.added-checkout-no-card ol li {
+ 
+  }
+
+} 
+/* **************************************** END STYLE CHECKOUT NO CARD  ************************************************************** */
+/* **************************************** END STYLE CHECKOUT NO CARD   ************************************************************** */
+
+
+/* **************************************** START STYLE CHECKOUT billing ************************************************************** */
+/* **************************************** START STYLE CHECKOUT billing  ************************************************************** */
 
 .check-billing{
 margin-top: 130px;
 }
+.add-credit-btn button{
+    background-color: #FFD700;
+    border: none;
+    border-radius: 4px;   
 
+}
+.check-billing button {
+    padding: 10px 13px 10px 13px;
+    border-radius: 4px;
+}
+
+.added-copon button{
+    background-color: #FFD700;
+    border: none; 
+}
+.added-copon button a{
+    color: #434340;
+    text-decoration: none;
+}
+.status-billing li button{
+    background-color: #FFD700;
+    border: none; 
+    padding: 10px 140px 10px 140px;
+}
+.status-billing li button a{
+    color: #434340;
+    text-decoration: none;
+}
+.add-credit-btn button a{
+color: #434340;
+text-decoration: none;
+}
 .added-checkout{
 padding: 40px 60px 140px 60px ;
 margin-bottom: 20px;
@@ -1441,5 +1526,5 @@ font-size: 18px;
 text-decoration: none;
 float: right;
 }
-/* **************************************** START STYLE CHECKOUT  ************************************************************** */
-/* **************************************** START STYLE CHECKOUT  ************************************************************** */
+/* **************************************** START STYLE CHECKOUT billing  ************************************************************** */
+/* **************************************** START STYLE CHECKOUT billing  ************************************************************** */

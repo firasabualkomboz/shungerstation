@@ -45,12 +45,12 @@
 
 <!-- start checkout  -->
 
-<div class="checkout">
+<div class="checkout-no-card">
 <div class="container">
 <div class="row">
 <div class="col-lg-8">
 
-    <div class="added-checkout shadow">
+    <div class="added-checkout-no-card shadow">
 
 <h4>Checkout</h4>
 <ul class="progressbar">
@@ -60,8 +60,10 @@
 </ul>
 
 <ol>
-    <li>Choose the card you want to use:</li>
-    <li><a href="">added</a></li>
+<li>Choose the card you want to use:</li>
+<li><button type="button" class="btn-add-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add new card &nbsp <img src="imgs/ic_add_more.svg" alt="">
+</button></li>
 </ol>
 
 <div class="about-card-no-check text-center">
@@ -70,9 +72,6 @@
     <p>You don’t have any cards yet. Try adding a new <br>
     debit/credit cards and enjoy its benefits.</p>
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Add new card
-  </button>
 
 </div>
 
@@ -99,7 +98,8 @@
 <li><a href="">Discount</a> <span>SR 68</span></li>
 <li><hr class="dropdown-divider"></li>
 <li><a href="">Total</a><span>AED 143.00</span></li>
-<button><a href="">Place Order</a></button>
+
+<li><button><a href="">Place Order</a></button></li>
 </ol>
 </div>
 

@@ -48,23 +48,26 @@
 <div class="check-billing">
 <div class="container">
 <div class="row">
+
 <div class="col-lg-8">
 
-    <div class="added-checkout check-billing-form shadow">
+<div class="added-checkout check-billing-form shadow">
 
-        <h4>Checkout</h4>
-
+<h4>Checkout</h4>
+<!-- start progressbar -->
 <ul class="progressbar">
 <li class="active">Shipping Details</li>
 <li>Add Location</li>
 <li>Billing Details</li>
 </ul>
+<!-- end progressbar -->
 
 <form action="">
 
 <div class="row g-3">
-    <div class="col-10">
-        <p>Choose the card you want to use:</p>
+
+<div class="col-9">
+<p>Choose the card you want to use:</p>
 
 <div class="form-check">
 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -90,13 +93,11 @@
 </label>
 </div>
 <!-- end credit #3 -->
+</div>
 
-
-    </div>
-
-    <div class="col-2">
-        <button><a href="">Add new debit/credit Card</a></button>
-    </div>
+<div class="col-3 add-credit-btn">
+<button class="shadow"><a style="font-size: 12px;" href="">Add new debit/credit Card <img src="imgs/ic_add_more.svg" alt=""> </a></button>
+</div>
 
 </div>
 
@@ -104,15 +105,15 @@
 
 <div class="row g-3">
 
-    <label class="form-label">Promo Code</label>
+<label class="form-label">Promo Code</label>
 
-    <div class="col-4">
+<div class="col-4">
 
-        <input type="text" class="form-control" placeholder="Have a coupon?" aria-label="First name">
-    </div>
-    <div class="col-2">
-        <button><a href="">Add coupon</a></button>
-    </div>
+<input type="text" class="form-control" placeholder="Have a coupon?" aria-label="First name">
+</div>
+<div class="col-2 added-copon">
+<button><a href="">Add coupon</a></button>
+</div>
 </div>
 
 
@@ -128,9 +129,7 @@
 </div>
 <div class="col-lg-4">
 
-
-
-<div class="status-checkout shadow">
+<div class="status-checkout shadow status-billing">
 <h4>Summary</h4>
 
 <div class="details-order">
@@ -146,6 +145,7 @@
 <li><a href="">Discount</a> <span>SR 68</span></li>
 <li><hr class="dropdown-divider"></li>
 <li><a href="">Total</a><span>AED 143.00</span></li>
+<li class="text-center"><button class="mt-4"><a href="">Place Order</a></button></li>
 </ol>
 </div>
 
