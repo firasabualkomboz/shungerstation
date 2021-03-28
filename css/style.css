@@ -1610,6 +1610,16 @@ font-weight: 400;
 .my-order .table-my-order table tr{
 color: #434340;
 }
+.modal-my-order ol {
+padding: 0;
+}
+.modal-my-order ol li {
+    list-style: none;
+    font-size: 14px;
+}
+.modal-my-order ol span {
+float: right;
+}
 .modal-my-order .table
 {
 }
