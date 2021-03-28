@@ -1652,4 +1652,16 @@ color: #434340;
 .complaint .mk-complaint{
     padding: 20px;
 }
+.complaint .mk-complaint form span{
+  
+    color: #949494;
+    font-size: 14px;
+}
+.complaint .mk-complaint form button{
+    background-color: #ffd700;
+    padding: 10px 110px 10px 110px;
+    color: #434340;
+    border: 0;
+    float: right;
+}
 /* end style complaint */
