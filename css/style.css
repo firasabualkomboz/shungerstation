@@ -1577,7 +1577,7 @@ border-radius: 50%;
 text-align: center;
 background-color: #fff;
 color: #434340;
-border: #000 solid 1px;
+border: none;
 }
 .my-order .list-my-order li{
 list-style: none;
@@ -1643,3 +1643,13 @@ color: #434340;
 }
 
 /* end style my order */
+
+/* start style complaint */
+
+.complaint{
+    margin-top: 120px;
+}
+.complaint .mk-complaint{
+    padding: 20px;
+}
+/* end style complaint */
