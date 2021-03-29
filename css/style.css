@@ -1755,4 +1755,43 @@ color: #434340;
     top: 80px;
     left: 40px;
 }
+
+.filter-page .pagination {
+    text-align: center;
+    margin: 0 auto;
+}
+.filter-page .pagination a{
+    text-align: center;
+    border-radius: 4px;
+}
+/* .filter-page .pagination a:last-child{
+padding: 0;
+border: 0;
+margin: 0;
+}
+.filter-page .pagination a:hover:last-child{
+background-color: #fff;
+} */
+
+/* .pagination a {
+    color: black;
+    float: left;
+    padding: 4px 12px 4px 12px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+.filter-page .pagination a:first-child{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    }
+    .filter-page .pagination a:hover:first-child{
+    background-color: #fff;
+    }
+     */
+    
+
+
 /* end style filter */
