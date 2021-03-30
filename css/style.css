@@ -471,7 +471,7 @@ border: 1px solid #ffd700;
 /* **************************************** START STYLE SINGLE REST ************************************************************** */
 .our-data-rest {
 margin-top: 110px;
-margin-bottom: 50px;
+margin-bottom: 20px;
 }
 .our-data-rest .about-order{
 border-radius: 4px;
@@ -525,7 +525,24 @@ float: left;
 border: #000 solid 1px;
 background-color: rgb(129, 127, 127);
 color: #000;
+}
 
+.det-pag-all-card ol{
+    padding: 0;
+    margin: 0;
+}
+
+.det-pag-all-card ol li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.det-pag-all-card ol li a {
+    color: #434340;
+background-color: #ffd700;
+text-decoration: none;
+padding: 5px 20px 5px 20px;
+border-radius: 2px;
 }
 
 /* **************************************** END STYLE SINGLE REST ************************************************************** */
