@@ -1117,9 +1117,21 @@ background-image: url(../imgs/photo/Verify.jpg);
 background-position: center; 
 background-repeat: no-repeat;
 background-size: cover;
-
+}
+.verify-today{
 }
 
+/* new style  */
+
+
+/* end new style  */
+.back-verify-login{
+    background-image: url(../imgs/photo/Verify.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
 .form-verify button{
 padding: 10px 150px 10px 150px;
 background-color: #FFD700;
@@ -1882,3 +1894,33 @@ background-color: #fff;
 
 
 /* end style filter */
+
+
+/* start out-partners */
+.our-partners{
+    margin-top: 120px;
+}
+.our-partners .content-our-partners{
+    padding: 10px;
+    border-radius: 4px;
+}
+.our-partners  button{
+    color: #fff;
+    background-color: #00C060;
+    padding: 8px 20px 8px 20px;
+    border: 0;
+    border-radius: 4px;
+}
+.our-partners .content-our-partners img{
+    width: 100%;
+}
+.our-partners .pagination {
+    text-align: center;
+    margin: 0 auto;
+}
+.our-partners  .pagination a{
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* end out-partners */
