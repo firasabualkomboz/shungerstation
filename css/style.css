@@ -1924,3 +1924,37 @@ background-color: #fff;
 }
 
 /* end out-partners */
+
+/* start style our-regions */
+
+.our-regions{
+    margin-top: 120px;
+}
+.our-regions .content-our-regions{
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.our-regions row{
+    margin-bottom: 40px;
+}
+.our-regions button{
+    color: #fff;
+    background-color: #00C060;
+    padding: 8px 20px 8px 20px;
+    border: 0;
+    border-radius: 4px;
+}
+.our-regions  .pagination {
+    text-align: center;
+    margin: 0 auto;
+}
+.our-regions .pagination a{
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+
+/* end style our-regions */
