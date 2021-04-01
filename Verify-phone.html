@@ -25,106 +25,47 @@
 <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
 <link rel="stylesheet" href="css/style.css">
 
-<style>
 
 
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-
-button {
-border-radius: 4px;
-background-color: #FFD700;
-color: #FFFFFF;
-padding: 12px 45px;
-border: none;
-}
-
-form {
-background-color: #FFFFFF;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 0 50px;
-height: 100%;
-text-align: center;
-}
-
-
-.container-spa{
-background-color: #fff;
-border-radius: 10px;
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-position: relative;
-overflow: hidden;
-width: 768px;
-max-width: 100%;
-min-height: 480px;
-}
-
-.form-container {
-position: absolute;
-top: 0;
-height: 100%;
-}
-
-.log-in-container {
-left: 0;
-width: 50%;
-z-index: 2;
-}
-
-
-.overlay-container {
-position: absolute;
-top: 0;
-left: 50%;
-width: 50%;
-height: 100%;
-}
-
-
-.overlay {
-background: #FF416C;
-background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-background: linear-gradient(to right, #FF4B2B, #FF416C);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 0 0;
-color: #FFFFFF;
-position: relative;
-left: -100%;
-height: 100%;
-width: 200%;
-}
-
-.overlay-panel {
-position: absolute;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 0 40px;
-text-align: center;
-top: 0;
-height: 100%;
-width: 50%;
-}
-.overlay-right {
-	right: 0;
-}
-
-</style>
 
 </head>
 
 <body>
 
+
+ <div class="auth-log-user">
+    <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-4 info-auth-log-user" style="background-color: aquamarine;">
+          <div class="about-auth-info">
+            <h2>Verify your phone number</h2>
+            <p>By verifying your phone number you will be able to order and view
+              your ordering history
+              <form class="row g-3" action="">
+
+                <label for="">Phone Number</label>
+
+                <div class="col-md-3">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>+966</option>
+                      <option>+966</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">&nbsp</label>
+                    <input placeholder="Phone Number" type="password" class="form-control" id="inputPassword4">
+                  </div>
+              </form>
+             </p>
+          </div>
+        </div>
+        <div class="col-lg-4  col-sm-4" style="background-color: red;">
+          <div class="abou-auth-image">
+              <img style="width: 100%;" src="imgs/photo/Verify.jpg" alt="">
+          </div>
+        </div>
+      </div>
+ </div>
 
 <!-- new nav bar  -->
 <!-- <nav class="navbar fixed-top navbar-light bg-light">
@@ -208,7 +149,7 @@ your ordering history
 
 <!-- end verfy tody  -->
 
-<div class="container-spa" id="container">
+<!-- <div class="container-spa" id="container">
     <div class="form-container log-in-container">
 
 
@@ -230,7 +171,7 @@ your ordering history
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
