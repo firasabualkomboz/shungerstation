@@ -1032,66 +1032,142 @@ background-attachment: fixed;
 background-size: 100% 100%;
 width: 100%;
 height: 50%;
+position: relative;
+background-position: center;
+background-size: cover;
 }
-.be-restbtm{
-    text-align: center;
-    border-radius: 4px;
+.be-rest-top .text-center{
+    font-size: 34px;
+    color: #fff;
     position: relative;
     margin: 0 auto;
-    top: 80%;
-    padding: 20px;
-    background-color: #fff;
-    width: 800px;
+    top: 40%;
 }
+.be-restbtm{
+text-align: center;
+border-radius: 4px;
+padding: 40px 20px 40px 20px;
+background-color: rgb(255, 255, 255);
+width: 50%;
+position: relative;
+margin: 0 auto;
+top: 50%;
+}
+
 @media only screen and (max-width: 600px){
-	.be-restbtm{
-        position: relative;
-        margin: 0 auto;
-        top: 50%;
-        padding: 10px;
-        background-color: #fff;
-        width: 400px;
-    }
+.be-restbtm{
+top: 50%;
+width: 100%;
+}
 }
 
 .be-restbtm button{
-    background-color: #FFD700;
-    padding: 8px 100px 8px 100px;
-    border: none;
-    border-radius: 4px;
+background-color: #FFD700;
+padding: 8px 100px 8px 100px;
+border: none;
+border-radius: 4px;
 }
 .be-restbtm button a{
-    color: #434340;
-    text-decoration: none;
-    background-color: #FFD700;
+color: #434340;
+text-decoration: none;
+background-color: #FFD700;
 }
 
 .be-rest-card{
 position: relative;
 margin-top: 10%;
+margin-bottom: 10%;
 }
-.be-rest-card .row{
- 
-}
+
 .item-card-be-rest{
+overflow: hidden;
 width:100%;
 height: 280px;
 padding: 20px;
+margin-bottom: 20px;
 background: rgb(217,242,231);
 background: linear-gradient(90deg, rgba(217,242,231,1) 19%, rgba(255,255,255,1) 23%);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .item-card-be-rest h4 {
-    color: #434340;
-    font-size: 38px;
-    font-weight: 900;
+color: #434340;
+font-size: 38px;
+font-weight: 900;
 }
+
 .tester{
-    margin: 0 0 0 auto;
+margin: 0 0 0 auto;
 }
 .tester0{
-    margin: 0 auto 0 0;
+margin: 0 auto 0 0;
+}
+@media only screen and (max-width: 768px){
+.be-rest-card{
+margin-top: 60%;
+margin-bottom: 5%;
+}
+}
+
+.be-rest .progressbar {
+counter-reset: step;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.be-rest  .progressbar li {
+list-style: none;
+display: inline-block;
+width:15.33%;
+position: relative;
+text-align: center;
+cursor: pointer;
+}
+.be-rest  .progressbar li:before {
+content: counter(step);
+counter-increment: step;
+width: 30px;
+height: 30px;
+line-height: 30px;
+border: 1px solid #FCE185;
+border-radius: 100%;
+display: block;
+text-align: center;
+margin: 0 auto 10px auto;
+background-color: #FCE185;
+}
+.be-rest .progressbar li:after {
+content: "";
+position: absolute;
+width: 100%;
+height: 1px;
+background-color: #ddd;
+top: 15px;
+left: -50%;
+z-index: -1;
+}
+.be-rest  .progressbar li:first-child:after {
+content: none;
+}
+.be-rest  .progressbar li.active {
+color: green;
+}
+.be-rest   .progressbar li.active:before {
+border-color: #00C269;
+background-color: #00C269;
+color: white;
+}
+.be-rest   .progressbar li.active + li:after {
+background-color: #00C269;
+}
+.be-rest button{
+padding: 8px 60px 8px 60px;
+background-color: #ffd700;
+border-radius: 4px;
+border: none;
+}
+.be-rest button a{
+ color: #434340;
+ text-decoration: none;
 }
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
