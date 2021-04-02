@@ -2149,26 +2149,17 @@ background-color: #fff;
 
 /* start style quick-market */
 
-.quick-market{
-margin-top: 120px;
-margin-bottom: 40px;
-}
-
+.quick-market{margin-top: 120px;margin-bottom: 40px;}
 .over-back{
-    background: rgb(255,207,45);
+background: rgb(255,207,45);
 background: linear-gradient(90deg, rgba(255,207,45,1) 0%, rgba(255,227,134,1) 0%, rgba(251,247,230,1) 0%, rgba(255,255,255,1) 73%);
 }
-.hero-about-market {
+.hero-about-market {padding: 20px 150px 10px 20px;}
 
-padding: 20px 150px 10px 20px;
+.hero-about-market .item-text img {float: left;height: 150px;}
 
-}
-.hero-about-market .item-text img {
-float: left;
-height: 150px;
-}
 .hero-about-market .item-text{
-    margin-top: 30px;
+margin-top: 30px;
 text-align: left;
 }
 
@@ -2218,4 +2209,5 @@ margin-bottom: 15px;
 .list-quick p{
 color: #434340;
 }
+
 /*  end style quick-market */
