@@ -1173,41 +1173,17 @@ border: none;
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 
-/* **************************************** START STYLE Verify your phone number ************************************************************** */
-/* **************************************** START STYLE Verify your phone number ************************************************************** */
+/* start Verify your phone number   */
 
-.verify-card{
-margin-top: 120PX;
-margin-bottom: 80PX;
-}
-.newclass{
-margin:  0 0 0 auto;
-padding: 20px;
-box-shadow:20px 20px 50px rgb(230, 228, 228);
-}
-.verify-card .form-select {
-border: #fff;
-border-bottom: 1px solid #ced4da;
-border-radius: 0;
-}
-.newclass1{
-margin: 0 auto 0 0 ;
-background-image: url(../imgs/photo/Verify.jpg);
-background-position: center; 
-background-repeat: no-repeat;
-background-size: cover;
-}
-.verify-today{
-}
 .auth-log-user{
-  margin-top: 120px;
+margin-top: 120px;
 }
 .info-auth-log-user{
-    padding: 80px 40px 30px 40px;
+padding: 80px 40px 30px 40px;
 }
 .auth{
-    margin-top: 15%;
-    position: relative;
+margin-top: 15%;
+position: relative;
 }
 .auth-log-user .info-auth-log-user .form-select{
 border: 0;
@@ -1234,26 +1210,22 @@ margin-top: 20px;
 padding: 10px 70px 10px 70px;
 }
 .info-auth-log-user{
-    padding: 55px 40px 30px 40px;
+padding: 55px 40px 30px 40px;
 }
 
 }
 @media (max-width :1200px)
 {
-
 .auth-log-user .info-auth-log-user button{
 padding: 10px 95px 10px 95px;
 }
-
 }
 @media (max-width :768px)
 {
-    .info-auth-log-user{
-        padding:10px 40px 30px 40px;
-    }
+.info-auth-log-user{
+padding:10px 40px 30px 40px;
 }
-
-
+}
 .auth-log-user .info-auth-log-user a{
 text-decoration: none;
 color: #434340;
@@ -1270,66 +1242,18 @@ border-left: solid 10px #fff;
 .auth-log-user .row:first-child{
 margin-right: 0
 }
-.back-auth{
-background-image: url(../imgs/photo/Verify.jpg);
-background-position: center; 
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 40vh;
-}
-/* new style  */
 
+/* end style Verify your phone number  */
 
-/* end new style  */
-.back-verify-login{
-    background-image: url(../imgs/photo/Verify.jpg);
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-}
-.form-verify button{
-padding: 10px 150px 10px 150px;
-background-color: #FFD700;
-color: #434340;
-border: none;
-border-radius: 4px;
-margin-top: 20px;
-}
-.btn-phone{
-    display: block;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: #fff;
-    border-bottom: 1px solid #ced4da;
-    appearance: none;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.form-verify{
-    padding: 60px;
-}
-
-/* **************************************** END STYLE Verify your phone number ************************************************************** */
-/* **************************************** END STYLE Verify your phone number ************************************************************** */
-
-
-/* **************************************** END STYLE Verify PIN NUMBER ************************************************************** */
-/* **************************************** END STYLE Verify PIN NUMBER ************************************************************** */
 
 .pin-card{
-    margin-top:10%;
+margin-top:10%;
 }
 .pin-card row{
-    border-radius: 4px;
+border-radius: 4px;
 }
 .data-pin{
-    padding: 20px;
+padding: 20px;
 }
 .back-img-pin{
 background-image: url(../imgs/photo/pin-number.jpg);
