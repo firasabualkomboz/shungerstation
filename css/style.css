@@ -1342,6 +1342,10 @@ padding: 10px 95px 10px 95px;
 .info-pin-log-user{
 padding:10px 40px 30px 40px;
 }
+.sy-pad {
+    margin-left: 0px;
+}
+
 }
 .pin-log-user .info-pin-log-user a{
 text-decoration: none;
