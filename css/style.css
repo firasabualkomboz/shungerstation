@@ -1267,13 +1267,26 @@ min-height: 70vh;
 margin-top: 120px;
 }
 .info-pin-log-user{
-padding: 10px 40px 15px 40px;
+/* padding: 10px 40px 15px 40px; */
+padding-top: 20px;
+}
+.sy-pad{
+margin-left: 40px;
 }
 .pin-log-user .info-pin-log-user .form-select{
 border: 0;
 border-radius: 0;
 border-bottom: solid 1px#E2E2E2;
 }
+.phone-inp-edit{
+border: 0;
+border-radius: 0;
+}
+.phone-inp-edit::selection{
+    border: 0;
+    border-radius: 0;
+    }
+
 .pin-log-user .info-pin-log-user .form-control {
 border: 0;
 border-radius: 0;
@@ -1286,6 +1299,9 @@ color: #434340;
 border: none;
 border-radius: 4px;
 margin-top: 20px;
+}
+.cd-pin-list{
+    /* margin-left: 80px; */
 }
 .cd-pin-list ol {
 margin: 0;
@@ -1301,7 +1317,7 @@ text-align: center;
 width: 50px;
 color: #000;
 text-align: center;
-border-radius: 0;
+border-radius: 4px;
 border: solid 1px #E7E7E7; 
 }
 
@@ -1345,9 +1361,15 @@ margin-right: 0
 }
 
 .pin-log-user .about-added-number{
+    width: 70%;
 padding: 10px;
 border: solid 1px #EEF1F5;
 border-radius: 4px;
+}
+.resend-code {
+    padding: 5px;
+    border: solid 1px #E7E7E7;
+    border-radius: 4px;
 }
 /* **************************************** START STYLE PIN NUMBER ************************************************************** */
 /* **************************************** START STYLE PIN NUMBER ************************************************************** */
