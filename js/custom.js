@@ -14,3 +14,4 @@ function initMap() {
     });
   }
   
+  // get my location 

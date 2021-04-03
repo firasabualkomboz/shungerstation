@@ -170,10 +170,53 @@ padding:10px 40px 10px 40px;
 
 }
 
-
-
-
 /* end  style hero image  */
+
+/* ===================================== start style landing  =====================================  */
+.landing{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/landing.jpg");
+background-size: cover;
+height:calc(100vh - 64px);
+position: relative;
+}
+.landing .text-landing h3{
+margin: 0;
+font-size: 36px;
+font-weight: bold;
+}
+.landing .text-landing p{
+font-size: 16px;
+line-height: 50.8px;
+}
+.landing .text-landing button{
+background-color: rgb(255, 215, 0);
+text-decoration: none;
+color: rgb(67, 67, 64);
+border-radius: 4px;
+padding: 10px 85px 10px 85px;
+border: 1px solid rgb(255, 215, 0);
+}
+.landing .text-landing{
+color: #fff;
+width: 320px;
+max-width: 100%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.get-my-location .btn-delev {
+background-color: #FFD700;
+border: none;
+padding: 10px 140px 10px 140px;
+border-radius: 4px;
+text-align: center;
+align-content: center;
+margin-left: 0;
+}
+/* ===================================== end style landing  =====================================  */
+
 
 /* start div b  */
 .div-b{
@@ -1373,8 +1416,6 @@ width: 100%;
 
 /* **************************************** START STYLE PIN NUMBER ************************************************************** */
 /* **************************************** START STYLE PIN NUMBER ************************************************************** */
-
-
 
 /* **************************************** START STYLE PROFILE MENU ************************************************************** */
 /* **************************************** START STYLE PROFILE MENU ************************************************************** */

@@ -59,26 +59,37 @@ display: block;
 <li><a href="#"><img src="imgs/ic_shopping_basket.svg" alt=""></a></li>
 <li><a class="bef" href="">عربي</a></li>
 <li class="dropdown"> <a class="bef" href=""><img src="imgs/45m.png" alt=""></a>
-  <div class="dropdown-content">
- <ul class="list-unstyled">
-   <li><a class="" href="">Home Page </a></li>
-   <li><hr class="dropdown-divider"></li>
-   <li><a href="">My Orders</a></li>
-   <li><hr class="dropdown-divider"></li>
-   <li><a href="">My Tickets</a></li>
-   <li><hr class="dropdown-divider"></li>
-   <li><a href="">My Cards</a></li>
-   <li><hr class="dropdown-divider"></li>
-   <li><a href="">Log Out</a></li>
- </ul>
-  </div>
-  </li>
+<div class="dropdown-content">
+<ul class="list-unstyled">
+<li><a class="" href="">Home Page </a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a href="">My Orders</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a href="">My Tickets</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a href="">My Cards</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a href="">Log Out</a></li>
+</ul>
+</div>
+</li>
 </ol>
 </div>
 </nav>
 
 
 <!-- end new nav bar  -->
+
+<!-- start landing  -->
+<div class="landing">
+<div class="text-landing">
+<h3>+10000 restaurants</h3>
+<p>Order and your food delivered to doorstep ... </p>
+<button type="button"data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now</button>
+</div>
+</div>
+<!-- end landing  -->
+
 
 <div class="hero-image">
 <div class="hero-text">
@@ -105,6 +116,9 @@ display: block;
   <li><a href="verify-pin.html"> pin </a></li>
 </ol>
 <!-- end swip page test  -->
+
+
+
 <!-- div b  -->
 
 <div class="div-b">
@@ -394,6 +408,38 @@ and delivering process.</p>
 <!-- end footer -->
 
 
+<!-- start modal location  -->
+
+<!-- Modal -->
+<div class="modal fade modal-details-page get-my-location" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Delivery Address</h5>
+<a data-bs-dismiss="modal" aria-label="Close" href=""><img src="imgs/ic_exit.svg" alt=""></a>
+
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-lg-6">
+get my locaion 
+</div>
+<div class="col-lg-6">
+<div class="info-ny-loca">
+<h5>Deliver to:</h5>
+<p>2973 Al Hudaifiyah, King Fahd, Riyadh 12271 6206, Saudi Arabia</p>
+<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+<textarea style="resize: none;" class="form-control" placeholder="Add delivery instruction (optional)" rows="8"></textarea>
+<button class="btn-delev mt-5" data-bs-dismiss="modal" >Deliver here</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<!-- emd modal location -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
