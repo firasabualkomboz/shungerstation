@@ -1354,13 +1354,6 @@ padding: 5px;
 border: solid 1px #E7E7E7;
 border-radius: 4px;
 }
-
-@media only screen and (max-width :428px)
-{
-.pin-log-user .about-added-number{
-width: 100%;
-}
-}
 @media only screen and (max-width :1150px)
 {
 .pin-log-user .about-added-number{
@@ -1368,6 +1361,15 @@ width: 50%;
 }
 
 }
+
+
+@media only screen and (max-width :428px)
+{
+.pin-log-user .about-added-number{
+width: 100%;
+}
+}
+
 
 /* **************************************** START STYLE PIN NUMBER ************************************************************** */
 /* **************************************** START STYLE PIN NUMBER ************************************************************** */
