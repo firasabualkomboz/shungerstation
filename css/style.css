@@ -185,7 +185,7 @@ font-size: 36px;
 font-weight: bold;
 }
 .landing .text-landing p{
-font-size: 16px;
+font-size: 36px;
 line-height: 50.8px;
 }
 .landing .text-landing button{
@@ -198,7 +198,7 @@ border: 1px solid rgb(255, 215, 0);
 }
 .landing .text-landing{
 color: #fff;
-width: 320px;
+width: 820px;
 max-width: 100%;
 position: absolute;
 left: 50%;
@@ -214,6 +214,17 @@ border-radius: 4px;
 text-align: center;
 align-content: center;
 margin-left: 0;
+}
+@media only screen and (max-width :992px)
+
+{
+.landing .text-landing{
+width: 320px;
+}
+.landing .text-landing p{
+font-size: 26px;
+}
+
 }
 /* ===================================== end style landing  =====================================  */
 
@@ -2236,6 +2247,7 @@ margin-top: -50px;
 
 .img-quick{
 width: 100%;
+float: center;
 }
 
 .list-quick{
