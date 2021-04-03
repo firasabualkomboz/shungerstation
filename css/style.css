@@ -119,11 +119,11 @@ text-align: center;
 font-size: 36px;
 }
 @media only screen and (max-width: 600px) {
-    .hero-image {
-        margin-top: 28%;
-        height: 50%;
-  
-        }
+.hero-image {
+margin-top: 28%;
+height: 50%;
+
+}
 .hero-text h2 {
 font-size: 46px;
 }
@@ -160,15 +160,15 @@ top: 0;
 }
 @media only screen and (max-width: 600px) {
 .inform p {
-    text-align: 8px;
-    color: red;
-    text-align: center;
+text-align: 8px;
+color: red;
+text-align: center;
 }
 .hero-text button{
-    padding:10px 40px 10px 40px;
+padding:10px 40px 10px 40px;
 }
 
-  }
+}
 
 
 
@@ -267,9 +267,9 @@ margin: -20px 40px 80px 60px ;
 line-height: 2.8;
 }
 @media only screen and (max-width: 600px) {
-    .app-example .item-example .text-item-example p{
-        line-height: 1.2;
-        } 
+.app-example .item-example .text-item-example p{
+line-height: 1.2;
+} 
 }
 .app-example .item-example .text-item-example a{
 float: right;
@@ -281,29 +281,29 @@ width: 25%;
 margin-left: 20px;
 }
 
-end app-example
+/* end app-example */
 
 /* start swip  */
 .swip{
-    overflow: auto;
+overflow: auto;
 
 
 }
 .swip .container{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #FBFBFB;
-    padding: 10px;
-  
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #FBFBFB;
+padding: 10px;
+
 }
 .swip .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
 }
 .swip .card img {
-    padding: 10px;
-    background-color: #F9F9F9;
+padding: 10px;
+background-color: #F9F9F9;
 
 }
 /* start ads  */
@@ -361,10 +361,10 @@ border-radius: 8px;
 box-shadow: 0 9px 8px rgba(218, 218, 218, 0.3) , 0 9px 8px rgba(218, 218, 218, 0.3) ,0 9px 8px rgba(218, 218, 218, 0.3)  ,0 9px 8px rgba(218, 218, 218, 0.3);
 }
 @media only screen and (max-width: 600px) {
-    .owl-theme .owl-dots, .owl-theme .owl-nav{
-        display: none;
-    }
-  }
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+display: none;
+}
+}
 
 
 
@@ -379,9 +379,9 @@ footer p{
 margin-left: 10px;
 }
 @media only screen and (max-width: 600px) {
-    footer p{
-        margin-left: 0px;
-        }
+footer p{
+margin-left: 0px;
+}
 }
 footer ol {
 font-size: 12px;
@@ -424,11 +424,11 @@ margin-right: 5px;
 
 
 .owl-theme .owl-dots, .owl-theme .owl-nav {
-    text-align: center;
-    -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    top: -25px;
-    /* left: 129px; */
+text-align: center;
+-webkit-tap-highlight-color: transparent;
+position: absolute;
+top: -25px;
+/* left: 129px; */
 }
 
 
@@ -489,16 +489,16 @@ padding: 10px 65px 10px 65px;
 color: #fff !important;
 }
 .img-modal-order{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 .btn-go-check a{
 }
 
 .a-card-rel{
-    color: #434340;
-    text-decoration: none;
+color: #434340;
+text-decoration: none;
 
 }
 .about-order .card {
@@ -534,16 +534,16 @@ color: #000;
 
 .det-pag-all-card ol{
     padding: 0;
-    margin: 0;
+margin: 0;
 }
 
 .det-pag-all-card ol li {
-    list-style: none;
-    display: inline;
-    margin-right: 10px;
+list-style: none;
+display: inline;
+margin-right: 10px;
 }
 .det-pag-all-card ol li a {
-    color: #434340;
+color: #434340;
 background-color: #ffd700;
 text-decoration: none;
 padding: 5px 20px 5px 20px;
@@ -604,21 +604,21 @@ border-radius: 4px;
 /* **************************************** START STYLE Privacy policy ************************************************************** */
 /* **************************************** START STYLE Privacy policy ************************************************************** */
 .question{
-    margin-top: 120px;
-    margin-bottom: 40px;
+margin-top: 120px;
+margin-bottom: 40px;
 }
 .list-ques{
-    padding: 20px;
-    border: solid 1px #E2E2E2;
+padding: 20px;
+border: solid 1px #E2E2E2;
 }
 .list-ques ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 .list-ques ol li{
-    text-align: left;
-    margin-bottom: 20px;
+text-align: left;
+margin-bottom: 20px;
 }
 .list-ques ol .qurs-active{
 background-color: #ffd700;
@@ -627,11 +627,11 @@ border-radius: 4px;
 color: #434340;
 }
 .list-ques ol li:hover{
-    background-color: #ffd700;
-    padding: 10px;
-    border-radius: 4px;
-    color: #434340;
-    transition: all .3s .3s;
+background-color: #ffd700;
+padding: 10px;
+border-radius: 4px;
+color: #434340;
+transition: all .3s .3s;
 }
 
 .list-ques ol  li a {
@@ -639,15 +639,15 @@ color: #949494;
 text-decoration: none;
 }
 .accordion-button:not(.collapsed) {
-     color: #000; 
-    background-color:#fff; 
+color: #000; 
+background-color:#fff; 
 }
 .accordion-button{
-    border: none;
+border: none;
 }
 .accordion-collapse {
-    border: solid #fff;
-    border-width: 0 1px;
+border: solid #fff;
+border-width: 0 1px;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -657,12 +657,12 @@ transform: rotate(
 );
 }
 .accordion-button::after {
-    background-image: url(../imgs/ic_open.svg);
+background-image: url(../imgs/ic_open.svg);
 }
 
 .accordion-button:focus {
-    border-color: #fff;
-    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+border-color: #fff;
+box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
 }
 
 /* **************************************** START STYLE CONTACT US  ************************************************************** */
@@ -722,14 +722,14 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 .why-us-fish ol li {
-    display: inline-block;
+display: inline-block;
 }
 .why-us-fish img{
-    width: 100%;
+width: 100%;
 }
 .why-us-fish h4 {
-    margin-top: 20px;   
-    margin-bottom: 20px;   
+margin-top: 20px;   
+margin-bottom: 20px;   
 }
 .why-us-fish button{
 background: rgb(217,242,231);
@@ -741,7 +741,7 @@ margin-bottom: 10px;
 box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
 }
 .why-us-fish .about-step p {
-    color: #a5a5a4;
+color: #a5a5a4;
 }
 /* **************************************** END STYLE Why us fish tinder  ************************************************************** */
 /* **************************************** END STYLE Why us fish tinder  ************************************************************** */
@@ -751,12 +751,12 @@ box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
 /* **************************************** START STYLE JOIN FISH ************************************************************** */
 
 .data-btm-hero{
-    width: 400px;
- 
+width: 400px;
+
 }
 .data-btm-hero{
-    background-color: red;
-    margin: 0 auto;
+background-color: red;
+margin: 0 auto;
 }
 
 /* **************************************** END STYLE JOIN FISH ************************************************************** */
@@ -768,12 +768,12 @@ box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
 /* simple frame work */
 
 .back-text{
-    background-color: #FFCF2D;
-    width: 210px;
-    white-space: nowrap;
+background-color: #FFCF2D;
+width: 210px;
+white-space: nowrap;
 }
 hr{
-    color: #EEF1F5;
+color: #EEF1F5;
 }
 
 /* end simple frame work */
@@ -782,10 +782,10 @@ hr{
 /* **************************************** START STYLE TERMS ************************************************************** */
 /* **************************************** START STYLE TERMS ************************************************************** */
 .terms{
-    margin-top: 130px;
+margin-top: 130px;
 }
 .about-terms{
-    text-transform: capitalize;
+text-transform: capitalize;
 }
 
 .about-terms img {
@@ -872,7 +872,7 @@ color: white;
 .progressbar li.active + li:after {
 background-color: #FFCF2D;
 }
-  
+
 .comp-info-card{
 margin-top: 120px;
 margin-bottom: 20px;
@@ -898,20 +898,20 @@ top: 30%;
 font-size: 22px;
 }
 @media only screen and (max-width: 1200px) {
-    .comp-info-card .progressbar  {
-        margin-left: -40px;
-    }
+.comp-info-card .progressbar  {
+margin-left: -40px;
+}
 }
 .form-all-right{
-    margin-top: 20px;
+margin-top: 20px;
 }
 .form-all-right button{
-    margin-top: 20px;
-    background-color: #F9D96A;
-    color: #434340;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 100px 8px 100px;
+margin-top: 20px;
+background-color: #F9D96A;
+color: #434340;
+border: none;
+border-radius: 4px;
+padding: 8px 100px 8px 100px;
 
 }
 
@@ -1016,7 +1016,7 @@ padding: 8px 100px 8px 100px;
 /* **************************************** END STYLE Restaurant Information ************************************************************** */
 
 .text-text{
-    text-decoration:overline;
+text-decoration:overline;
 }
 
 
@@ -1167,8 +1167,8 @@ border-radius: 4px;
 border: none;
 }
 .be-rest button a{
- color: #434340;
- text-decoration: none;
+color: #434340;
+text-decoration: none;
 }
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
@@ -1204,7 +1204,7 @@ border-radius: 4px;
 margin-top: 20px;
 }
 
-@media (max-width :992px)
+@media only screen and (max-width :992px)
 {
 .auth-log-user .info-auth-log-user button{
 padding: 10px 70px 10px 70px;
@@ -1214,13 +1214,13 @@ padding: 55px 40px 30px 40px;
 }
 
 }
-@media (max-width :1200px)
+@media only screen and (max-width :1200px)
 {
 .auth-log-user .info-auth-log-user button{
 padding: 10px 95px 10px 95px;
 }
 }
-@media (max-width :768px)
+@media only screen and (max-width :768px)
 {
 .info-auth-log-user{
 padding:10px 40px 30px 40px;
@@ -1297,7 +1297,7 @@ border-radius: 4px;
 border: solid 1px #E7E7E7; 
 }
 
-@media (max-width :992px)
+@media only screen and (max-width :992px)
 {
 
 .pin-log-user .info-pin-log-user button{
@@ -1308,13 +1308,13 @@ padding: 55px 40px 30px 40px;
 }
 
 }
-@media (max-width :1200px)
+@media only screen and (max-width :1200px)
 {
 .pin-log-user .info-pin-log-user button{
 padding: 10px 95px 10px 95px;
 }
 }
-@media (max-width :768px)
+@media only screen and (max-width :768px)
 {
 .info-pin-log-user{
 padding:10px 40px 30px 40px;
@@ -1322,7 +1322,6 @@ padding:10px 40px 30px 40px;
 .sy-pad {
     margin-left: 0px;
 }
-
 
 }
 
@@ -1351,20 +1350,21 @@ border: solid 1px #EEF1F5;
 border-radius: 4px;
 }
 .resend-code {
-    padding: 5px;
-    border: solid 1px #E7E7E7;
-    border-radius: 4px;
+padding: 5px;
+border: solid 1px #E7E7E7;
+border-radius: 4px;
 }
 
-@media (max-width :428px)
+@media only screen and (max-width :428px)
 {
 .pin-log-user .about-added-number{
 width: 100%;
 }
-@media (max-width :1150px)
+}
+@media only screen and (max-width :1150px)
 {
 .pin-log-user .about-added-number{
-width: 30%;
+width: 50%;
 }
 
 }
