@@ -411,17 +411,14 @@ margin-left:20px;
 }
 
 .owl-carousel .item {
-    border-radius: 4px;
-/*
-box-shadow: 0 9px 8px rgba(218, 218, 218, 0.3) , 0 9px 8px rgba(218, 218, 218, 0.3) ,0 9px 8px rgba(218, 218, 218, 0.3)  ,0 9px 8px rgba(218, 218, 218, 0.3); */
+border-radius: 4px;
 }
+
 @media only screen and (max-width: 600px) {
 .owl-theme .owl-dots, .owl-theme .owl-nav{
 display: none;
 }
 }
-
-
 
 /* end swip various cuisines  */
 
