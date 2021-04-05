@@ -1874,19 +1874,7 @@ margin-right: 20px;
 .check-billing-form .form-check img{
 margin-right: 10px;
 }
-.check-billing button{
-/* margin-top: 5%;
-padding: 10px 80px 10px 80px;
-background-color: #FFD700;
-color: #434340;
-border: none;
-border-radius: 4px;
-float: right; */
-}
-.check-billing button a{
-/* color: #434340;
-text-decoration: none; */
-}
+
 @media only screen and (max-width: 1200px) {
 .check-billing .progressbar{
 margin-left: -40px;
@@ -1951,9 +1939,15 @@ padding: 10px 50px 10px 50px;
 }
 }
 
+@media screen and (max-width: 576px){
+.check-billing-form{padding: 20px;}
+}
+@media screen and (max-width: 378px){
+.check-billing-form{padding: 40px;}
+}
 
-/* **************************************** START STYLE CHECKOUT billing  ************************************************************** */
-/* **************************************** START STYLE CHECKOUT billing  ************************************************************** */
+/* **************************************** END STYLE CHECKOUT billing  ************************************************************** */
+/* **************************************** END STYLE CHECKOUT billing  ************************************************************** */
 
 /* start style my order */
 
