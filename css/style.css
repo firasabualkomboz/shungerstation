@@ -33,10 +33,10 @@ margin-right: 10px;
 text-decoration: none;
 }
 .nu-nav .item-nu-nav ol li .img-user{
-    width: 4%;
+width: 4%;
 }
 .nu-nav .item-nu-nav ol li a .fa-shopping-cart{
-    color: #434340;
+color: #434340;
 }
 .nu-nav .item-nu-nav ol li .bef::before{
 font-family: "Font Awesome 5 Free";
@@ -274,8 +274,8 @@ width: 50%;
 margin-left: -147px;
 }
 .image-2{
-    width: 80%;
-    margin-bottom: 50px;
+width: 80%;
+margin-bottom: 50px;
 }
 .div-img ol li {
 display: inline;
@@ -583,7 +583,7 @@ color: #000;
 }
 
 .det-pag-all-card ol{
-    padding: 0;
+padding: 0;
 margin: 0;
 }
 
@@ -638,11 +638,11 @@ border: #EFEFEF solid 1px;
 border-radius: 4px;
 }
 .modal-details-page h5 {
-    color: #4C4C4C;
+color: #4C4C4C;
 }
 .modal-details-page .form-check-input:checked {
-    background-color: black;
-    border-color: #000;
+background-color: black;
+border-color: #000;
 }
 
 /* **************************************** END STYLE SINGLE REST ************************************************************** */
@@ -854,7 +854,7 @@ margin-top: 50px;
 margin-top: 0px;
 }
 .about-terms img {
-    width: 100%;
+width: 100%;
 float: none;
 }
 
@@ -1158,7 +1158,7 @@ margin-bottom: 5%;
 }
 }
 .be-rest{
-    margin-bottom: 80px;
+margin-bottom: 80px;
 }
 .be-rest .progressbar {
 counter-reset: step;
@@ -1370,7 +1370,7 @@ padding: 10px 95px 10px 95px;
 padding:10px 40px 30px 40px;
 }
 .sy-pad {
-    margin-left: 0px;
+margin-left: 0px;
 }
 
 }
@@ -1432,46 +1432,46 @@ margin-top: 120PX;
 margin-bottom: 80PX;
 }
 .profile-menu .pm-row{
-    padding: 20px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+padding: 20px;
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .profile-menu .data-profile .information-user{
-        padding: 0;
+padding: 0;
 }
 .profile-menu ol li {
-    display: inline;
-    margin: 10px;
+display: inline;
+margin: 10px;
 }
 .profile-menu ol li a img{
- width: 20%;
+width: 20%;
 }
 
 
 .profile-menu ol li a {
-    text-decoration: none;
-    color: #707070;
+text-decoration: none;
+color: #707070;
 }
 
 .profile-menu button{
-    padding: 10px 150px 10px 150px;
-    background-color: #FFD700;
-    color: #434340;
-    border: none;
-    border-radius: 4px;
-    margin-top: 20px;
+padding: 10px 150px 10px 150px;
+background-color: #FFD700;
+color: #434340;
+border: none;
+border-radius: 4px;
+margin-top: 20px;
 }
 .torder{
-    border-left: #E3E3E3 solid 1px;
+border-left: #E3E3E3 solid 1px;
 }
 .total-order{
-    margin-top: 10%;
+margin-top: 10%;
 }
 
 @media (max-width :380px)
 {
 
 .profile-menu button{
-    padding: 10px 80px 10px 80px;
+padding: 10px 80px 10px 80px;
 }
 }
 
@@ -1488,7 +1488,7 @@ margin-bottom: 80PX;
 .Credit-empty .pm-row{
 padding: 30px 40px 20px 40px;
 border-radius: 4px;
-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+/* box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; */
 }
 
 .Credit-empty h5{
@@ -1508,8 +1508,6 @@ margin-top: 20px;
 color: #434340;
 text-decoration: none;
 }
-
-
 /* **************************************** END STYLE Credit EMPTY ************************************************************** */
 /* **************************************** END STYLE Credit EMPTY ************************************************************** */
 
@@ -1526,15 +1524,15 @@ border-radius: 4px;
 box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .item-about-credit{
- margin: 20px;
+margin: 20px;
 }
 .item-about-credit .form-check{
-    margin: 20px;
+margin: 20px;
 }
 .item-about-credit .form-check a{
- text-decoration: none;
- color: #434340;
- margin-right: 20px;
+text-decoration: none;
+color: #434340;
+margin-right: 20px;
 }
 .item-about-credit .form-check img{
 margin-right: 10px;
@@ -1563,9 +1561,9 @@ text-decoration: none;
 @media (max-width :767px)
 {
 
-    .Credit-cards button {
-        float: left;
-        }
+.Credit-cards button {
+float: left;
+}
 }
 
 .form-check-input:checked {
@@ -1601,13 +1599,13 @@ padding: 10px;
 border: solid #DEDEDE 2px;
 }
 .action-cart{
-    margin-top: 30%;
+margin-top: 30%;
 }
 @media only screen and (max-width: 767px) {
 
-    .action-cart{
-        margin-top: 0%;
-    }
+.action-cart{
+margin-top: 0%;
+}
 
 }
 
@@ -1618,6 +1616,8 @@ border: solid #DEDEDE 2px;
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 
+
+    
 .checkout{
 margin-top: 130px;
 }
@@ -1641,26 +1641,26 @@ text-decoration: none;
 }
 @media only screen and (max-width: 1200px) {
 .checkout .progressbar{
-    margin-left: -40px;
+margin-left: -40px;
 }
 }
 .checkout.progressbar li.active {
-    color: #000;
+color: #000;
 }
 .checkout .progressbar li.active:before {
-    border-color: #00C060;
-    background-color: #00C060;
-    color: white;
+border-color: #00C060;
+background-color: #00C060;
+color: white;
 }
 .status-checkout{
 padding: 20px;
 border-radius: 4px;
 }
 .details-order{
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 .details-order strong{
-    color: #00C269;
+color: #00C269;
 }
 .details-order .name-order{
 margin-left: 20px;
@@ -1689,6 +1689,30 @@ font-size: 18px;
 text-decoration: none;
 float: right;
 }
+.added-checkout .progressbar .middle:before {
+border: 1px solid #E2206B;
+background-color: #E2206B !important;
+}
+.added-checkout .progressbar .last:before {
+border: 1px solid #DCDCDC;
+background-color: #DCDCDC !important;
+}
+@media only screen and (max-width: 380px) {
+
+.added-checkout button{
+padding: 10px 18px 10px 18px;
+}
+
+}
+@media only screen and (max-width: 281x) {
+
+.added-checkout button{
+padding: 10px 40px 10px 40px;
+}
+
+}
+
+
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 
@@ -1698,22 +1722,22 @@ float: right;
 margin-top: 130px;
 }
 .checkout-no-card .status-checkout button{
-    background-color: #FFD700;
-    border: none;
-    padding: 10px 140px 10px 140px;
-    border-radius: 4px;   
+background-color: #FFD700;
+border: none;
+padding: 10px 140px 10px 140px;
+border-radius: 4px;   
 }
- .modal button{
-    background-color: #FFD700;
-    border: none;
-    padding: 10px 140px 10px 140px;
-    border-radius: 4px;   
-    text-align: center;
-    align-content: center;
-    margin-left: 12%;
+.modal button{
+background-color: #FFD700;
+border: none;
+padding: 10px 140px 10px 140px;
+border-radius: 4px;   
+text-align: center;
+align-content: center;
+margin-left: 12%;
 }
 .modal a{
-    color: #ffd700;
+color: #ffd700;
 }
 @media only screen and (max-width: 1200px) {
 .checkout-no-card .progressbar{
@@ -1727,14 +1751,14 @@ border-radius: 4px;
 }
 
 .added-checkout-no-card ol {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 .added-checkout-no-card ol li {
-  display: inline;
+display: inline;
 }
 .added-checkout-no-card ol li:last-child{
-    float: right;
+float: right;
 }
 .added-checkout-no-card ol li .btn-add-card{
 border: none;
@@ -1744,28 +1768,28 @@ border-radius: 4px;
 padding: 10px;
 }
 .about-card-no-check{
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px) 
 
 {
-    .modal button{
-        padding: 10px 120px 10px 120px;
-        margin-left: 0%;
-    }
+.modal button{
+padding: 10px 120px 10px 120px;
+margin-left: 0%;
+}
 
-    .added-checkout-no-card ol li {
-        display: inline-block;
-        
-      }
+.added-checkout-no-card ol li {
+display: inline-block;
+
+}
 
 .added-checkout-no-card ol li:last-child{
 /* float: left; */
 }
 .added-checkout-no-card ol li {
- 
-  }
+
+}
 
 } 
 /* **************************************** END STYLE CHECKOUT NO CARD  ************************************************************** */
@@ -1779,32 +1803,32 @@ padding: 10px;
 margin-top: 130px;
 }
 .add-credit-btn button{
-    background-color: #FFD700;
-    border: none;
-    border-radius: 4px;   
+background-color: #FFD700;
+border: none;
+border-radius: 4px;   
 
 }
 .check-billing button {
-    padding: 10px 13px 10px 13px;
-    border-radius: 4px;
+padding: 10px 13px 10px 13px;
+border-radius: 4px;
 }
 
 .added-copon button{
-    background-color: #FFD700;
-    border: none; 
+background-color: #FFD700;
+border: none; 
 }
 .added-copon button a{
-    color: #434340;
-    text-decoration: none;
+color: #434340;
+text-decoration: none;
 }
 .status-billing li button{
-    background-color: #FFD700;
-    border: none; 
-    padding: 10px 140px 10px 140px;
+background-color: #FFD700;
+border: none; 
+padding: 10px 140px 10px 140px;
 }
 .status-billing li button a{
-    color: #434340;
-    text-decoration: none;
+color: #434340;
+text-decoration: none;
 }
 .add-credit-btn button a{
 color: #434340;
@@ -1816,14 +1840,14 @@ margin-bottom: 20px;
 border-radius: 4px;
 }
 .check-billing-form form{
-    margin-top: 30px;
+margin-top: 30px;
 }
 .check-billing-form .form-check{
-    margin-bottom:20px;
-    margin-right: 20px;
+margin-bottom:20px;
+margin-right: 20px;
 }
 .check-billing-form .form-check img{
-    margin-right: 10px;
+margin-right: 10px;
 }
 .check-billing button{
 /* margin-top: 5%;
@@ -1888,6 +1912,8 @@ font-size: 18px;
 text-decoration: none;
 float: right;
 }
+
+
 /* **************************************** START STYLE CHECKOUT billing  ************************************************************** */
 /* **************************************** START STYLE CHECKOUT billing  ************************************************************** */
 
@@ -1932,19 +1958,19 @@ text-align: center;
 
 }
 .my-order .table-my-order table thead{
-    border-bottom: solid #AEAEAC 1px;
+border-bottom: solid #AEAEAC 1px;
 }
 .my-order .table-my-order table thead th{
-    font-weight: 400;
+font-weight: 400;
 }
 .my-order .table-my-order table tbody th{
 font-weight: 400;
 }
 .my-order .table-my-order table tr {
-    }
+}
 .my-order .table>:not(caption)>*>* {
-    padding: .5rem .5rem;
-    border-bottom-width: 0px;
+padding: .5rem .5rem;
+border-bottom-width: 0px;
 }
 .my-order .table-my-order table tr{
 color: #434340;
@@ -1953,8 +1979,8 @@ color: #434340;
 padding: 0;
 }
 .modal-my-order ol li {
-    list-style: none;
-    font-size: 14px;
+list-style: none;
+font-size: 14px;
 }
 .modal-my-order ol span {
 float: right;
@@ -1963,19 +1989,19 @@ float: right;
 {
 }
 .modal-my-order table thead{
-    border-bottom: solid #AEAEAC 1px;
+border-bottom: solid #AEAEAC 1px;
 }
 .modal-my-order table thead th{
-    font-weight: 400;
+font-weight: 400;
 }
 .modal-my-order table tbody th{
 font-weight: 400;
 }
 .modal-my-order table tr {
-    }
-    .modal-my-order .table>:not(caption)>*>* {
-    padding: .5rem .5rem;
-    border-bottom-width: 0px;
+}
+.modal-my-order .table>:not(caption)>*>* {
+padding: .5rem .5rem;
+border-bottom-width: 0px;
 }
 .modal-my-order table tr{
 color: #434340;
@@ -1986,122 +2012,122 @@ color: #434340;
 /* start style complaint */
 
 .complaint{
-    margin-top: 120px;
+margin-top: 120px;
 }
 .complaint .mk-complaint{
-    padding: 20px;
+padding: 20px;
 }
 .complaint .mk-complaint form span{
-  
-    color: #949494;
-    font-size: 14px;
+
+color: #949494;
+font-size: 14px;
 }
 .complaint .mk-complaint form button{
-    background-color: #ffd700;
-    padding: 10px 110px 10px 110px;
-    color: #434340;
-    border: 0;
-    float: right;
+background-color: #ffd700;
+padding: 10px 110px 10px 110px;
+color: #434340;
+border: 0;
+float: right;
 }
 /* end style complaint */
 
 /* start style filter page */
 .filter-page{
-    margin-top: 120px;
-    }
-    .filter-page .list-filter{
-    padding: 10px;
-    background-color: #F9D96A;
-    border-radius: 4px;
-    padding-bottom: 150px;
-    }
-    .filter-page .list-filter  span{
-    
-    }
-    .filter-page .list-filter ol {
-    margin-top: 40px;
-    }
-    .filter-page .list-filter ol h4{
-    margin-bottom: 30px;
-    }
-    .filter-page .list-filter ol h4 span button{
-    border-radius: 50%;
-    text-align: center;
-    background-color: #fff;
-    color: #434340;
-    border: none;
-    }
-    .filter-page .list-filter li{
-    list-style: none;
-    }
+margin-top: 120px;
+}
+.filter-page .list-filter{
+padding: 10px;
+background-color: #F9D96A;
+border-radius: 4px;
+padding-bottom: 150px;
+}
+.filter-page .list-filter  span{
 
-    .filter-page .link-add-location {
-        padding: 10px;
-        background-color: #FAFAFA;
-        border-radius: 4px;
-        }
-    .filter-page .link-add-location ol  {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
+}
+.filter-page .list-filter ol {
+margin-top: 40px;
+}
+.filter-page .list-filter ol h4{
+margin-bottom: 30px;
+}
+.filter-page .list-filter ol h4 span button{
+border-radius: 50%;
+text-align: center;
+background-color: #fff;
+color: #434340;
+border: none;
+}
+.filter-page .list-filter li{
+list-style: none;
+}
 
-    .filter-page .link-add-location  a{
-        color: #434340;
-        text-decoration: none;
-    }
+.filter-page .link-add-location {
+padding: 10px;
+background-color: #FAFAFA;
+border-radius: 4px;
+}
+.filter-page .link-add-location ol  {
+padding: 0;
+margin: 0;
+list-style: none;
+}
 
-    .about-food ol {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        font-size: 14px;
-    }
-    
+.filter-page .link-add-location  a{
+color: #434340;
+text-decoration: none;
+}
+
+.about-food ol {
+list-style: none;
+padding: 0;
+margin: 0;
+font-size: 14px;
+}
+
 .filter-page .top-offers a{
-    text-decoration: none;
-    color: #434340;
-    font-size: 14px;
+text-decoration: none;
+color: #434340;
+font-size: 14px;
 }
 .filter-page .data-rest-food ol{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+padding: 0;
+margin: 0;
+list-style: none;
 }
 .filter-page .data-rest-food li{
-  display: inline;
-  margin-right: 5px;
+display: inline;
+margin-right: 5px;
 }
 .filter-page .data-rest-food ol li button{
-    background-color: #00C269;
-    color: #fff;
-    padding: 5px 10px 5px 10px;
-    border: 0;
-    border-radius: 4px;
+background-color: #00C269;
+color: #fff;
+padding: 5px 10px 5px 10px;
+border: 0;
+border-radius: 4px;
 }
 
 .about-food{
-    padding: 10px;
-    border-radius: 4px;
-    position: relative;
-    top: 0;
-    bottom: 0;
+padding: 10px;
+border-radius: 4px;
+position: relative;
+top: 0;
+bottom: 0;
 }
 
 .our-logo-rest{
-    border-radius: 4px;
-    position: absolute;
-    top: 80px;
-    left: 40px;
+border-radius: 4px;
+position: absolute;
+top: 80px;
+left: 40px;
 }
 
 .filter-page .pagination {
-    text-align: center;
-    margin: 0 auto;
+text-align: center;
+margin: 0 auto;
 }
 .filter-page .pagination a{
-    text-align: center;
-    border-radius: 4px;
+text-align: center;
+border-radius: 4px;
 }
 /* .filter-page .pagination a:last-child{
 padding: 0;
@@ -2113,24 +2139,24 @@ background-color: #fff;
 } */
 
 /* .pagination a {
-    color: black;
-    float: left;
-    padding: 4px 12px 4px 12px;
-    text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #ddd;
-    margin: 0 4px;
+color: black;
+float: left;
+padding: 4px 12px 4px 12px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ddd;
+margin: 0 4px;
 }
 .filter-page .pagination a:first-child{
-    padding: 0;
-    border: 0;
-    margin: 0;
-    }
-    .filter-page .pagination a:hover:first-child{
-    background-color: #fff;
-    }
-     */
-    
+padding: 0;
+border: 0;
+margin: 0;
+}
+.filter-page .pagination a:hover:first-child{
+background-color: #fff;
+}
+*/
+
 
 
 /* end style filter */
@@ -2138,29 +2164,29 @@ background-color: #fff;
 
 /* start out-partners */
 .our-partners{
-    margin-top: 120px;
+margin-top: 120px;
 }
 .our-partners .content-our-partners{
-    padding: 10px;
-    border-radius: 4px;
+padding: 10px;
+border-radius: 4px;
 }
 .our-partners  button{
-    color: #fff;
-    background-color: #00C060;
-    padding: 8px 20px 8px 20px;
-    border: 0;
-    border-radius: 4px;
+color: #fff;
+background-color: #00C060;
+padding: 8px 20px 8px 20px;
+border: 0;
+border-radius: 4px;
 }
 .our-partners .content-our-partners img{
-    width: 100%;
+width: 100%;
 }
 .our-partners .pagination {
-    text-align: center;
-    margin: 0 auto;
+text-align: center;
+margin: 0 auto;
 }
 .our-partners  .pagination a{
-    text-align: center;
-    border-radius: 4px;
+text-align: center;
+border-radius: 4px;
 }
 
 /* end out-partners */
@@ -2168,31 +2194,31 @@ background-color: #fff;
 /* start style our-regions */
 
 .our-regions{
-    margin-top: 120px;
+margin-top: 120px;
 }
 .our-regions .content-our-regions{
-    padding: 20px 10px 20px 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    cursor: pointer;
+padding: 20px 10px 20px 10px;
+margin-bottom: 10px;
+border-radius: 4px;
+cursor: pointer;
 }
 .our-regions row{
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 .our-regions button{
-    color: #fff;
-    background-color: #00C060;
-    padding: 8px 20px 8px 20px;
-    border: 0;
-    border-radius: 4px;
+color: #fff;
+background-color: #00C060;
+padding: 8px 20px 8px 20px;
+border: 0;
+border-radius: 4px;
 }
 .our-regions  .pagination {
-    text-align: center;
-    margin: 0 auto;
+text-align: center;
+margin: 0 auto;
 }
 .our-regions .pagination a{
-    text-align: center;
-    border-radius: 4px;
+text-align: center;
+border-radius: 4px;
 }
 
 
