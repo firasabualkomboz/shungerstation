@@ -1819,16 +1819,25 @@ display: inline-block;
 margin-top: 130px;
 }
 .add-credit-btn button{
-background-color: #FFD700;
+float: right;
+background-color: #FEFEFE;
 border: none;
+color: #434340;
 border-radius: 4px;   
+border: solid #E1E1E1 2px;
+}
+@media screen and (max-width:1200px){
+.add-credit-btn button{
+float: left;
+margin-bottom: 10px;
+}
 
 }
+
 .check-billing button {
 padding: 10px 13px 10px 13px;
 border-radius: 4px;
 }
-
 .added-copon button{
 background-color: #FFD700;
 border: none; 
@@ -1840,7 +1849,7 @@ text-decoration: none;
 .status-billing li button{
 background-color: #FFD700;
 border: none; 
-padding: 10px 140px 10px 140px;
+padding: 10px 100px 10px 100px;
 }
 .status-billing li button a{
 color: #434340;
@@ -1927,6 +1936,19 @@ color: #434340;
 font-size: 18px;
 text-decoration: none;
 float: right;
+}
+
+@media screen and (max-width: 576px){
+
+.status-billing li button {
+padding: 10px 100px 10px 100px;
+}
+}
+@media screen and (max-width: 296px){
+
+.status-billing li button {
+padding: 10px 50px 10px 50px;
+}
 }
 
 
