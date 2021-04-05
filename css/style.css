@@ -1521,7 +1521,7 @@ margin-bottom: 80PX;
 .Credit-cards .pm-row{
 padding: 50px 40px 80px 40px;
 border-radius: 4px;
-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+/* box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; */
 }
 .item-about-credit{
 margin: 20px;
@@ -1570,8 +1570,24 @@ float: left;
 background-color: #FFCF2D;
 border-color: #FFCF2D;
 }
+.item-about-credit .img-del img{
+    margin-left: 50px;
+}
 
 
+@media screen and (max-width: 576px) {
+.Credit-cards .pm-row {
+padding: 10px;
+border-radius: 4px;
+}
+.item-about-credit {
+margin-left: -29px;
+}
+.item-about-credit .img-del img{
+margin-left: 10px;
+}
+
+}
 /* **************************************** END STYLE Credit Cards ************************************************************** */
 /* **************************************** END STYLE Credit Cards ************************************************************** */
 
