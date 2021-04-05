@@ -1473,6 +1473,7 @@ margin-top: 10%;
 .profile-menu button{
 padding: 10px 80px 10px 80px;
 }
+
 }
 
 /* **************************************** END STYLE PROFILE MENU ************************************************************** */
@@ -1633,7 +1634,7 @@ margin-top: 0%;
 /* **************************************** START STYLE CHECKOUT  ************************************************************** */
 
 
-    
+
 .checkout{
 margin-top: 130px;
 }
@@ -1734,6 +1735,7 @@ padding: 10px 40px 10px 40px;
 
 /* **************************************** START STYLE CHECKOUT NO CARD  ************************************************************** */
 /* **************************************** START STYLE CHECKOUT NO CARD  ************************************************************** */
+
 .checkout-no-card{
 margin-top: 130px;
 }
@@ -1849,7 +1851,7 @@ padding: 10px 50px 10px 50px;
 .checkout-no-card .status-checkout button {
 padding: 10px 60px 10px 60px;
 }
-
+}
 @media only screen and (max-width: 322px) {
 .no-card{
 padding: 10px 60px 10px 60px !important;
@@ -2089,6 +2091,14 @@ border-bottom-width: 0px;
 .modal-my-order table tr{
 color: #434340;
 }
+
+@media screen and (max-width: 576px){
+.table-my-order{
+    margin-top: 10px;
+}
+}
+
+
 
 /* end style my order */
 
