@@ -1737,10 +1737,25 @@ padding: 10px 40px 10px 40px;
 .checkout-no-card{
 margin-top: 130px;
 }
+.checkout-no-card .progressbar{
+margin-left: -130px;
+}
+.checkout-no-card .progressbar .active:before {
+border: 1px solid #00C060;
+background-color: #00C060 !important;
+}
+.checkout-no-card .progressbar .middle:before {
+border: 1px solid #E2206B;
+background-color: #E2206B !important;
+}
+.checkout-no-card .progressbar .last:before {
+border: 1px solid #FFCF2D;
+background-color: #FFCF2D !important;
+}
 .checkout-no-card .status-checkout button{
 background-color: #FFD700;
 border: none;
-padding: 10px 140px 10px 140px;
+padding: 10px 110px 10px 110px;
 border-radius: 4px;   
 }
 .modal button{
@@ -1776,6 +1791,16 @@ display: inline;
 .added-checkout-no-card ol li:last-child{
 float: right;
 }
+@media screen and (max-width: 539px){
+.added-checkout-no-card ol li {
+margin-bottom: 10px;
+}
+
+.added-checkout-no-card ol li:last-child{
+float: left;
+}
+}
+
 .added-checkout-no-card ol li .btn-add-card{
 border: none;
 background-color: #FDFDFD;
@@ -1808,6 +1833,33 @@ display: inline-block;
 }
 
 } 
+
+@media screen and (max-width: 576px){
+
+.checkout-no-card .status-checkout button{
+padding: 10px 100px 10px 100px;
+}
+}
+@media screen and (max-width: 296px){
+.checkout-no-card .status-checkout button{
+padding: 10px 50px 10px 50px;
+}
+}
+@media screen and (max-width: 322px){
+.checkout-no-card .status-checkout button {
+padding: 10px 60px 10px 60px;
+}
+
+@media only screen and (max-width: 322px) {
+.no-card{
+padding: 10px 60px 10px 60px !important;
+margin-left: 0% !important;
+}
+
+}
+
+
+
 /* **************************************** END STYLE CHECKOUT NO CARD  ************************************************************** */
 /* **************************************** END STYLE CHECKOUT NO CARD   ************************************************************** */
 
@@ -1933,7 +1985,6 @@ padding: 10px 100px 10px 100px;
 }
 }
 @media screen and (max-width: 296px){
-
 .status-billing li button {
 padding: 10px 50px 10px 50px;
 }

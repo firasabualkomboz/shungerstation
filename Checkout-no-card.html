@@ -50,28 +50,27 @@
 <div class="row">
 <div class="col-lg-8">
 
-    <div class="added-checkout-no-card shadow">
+<div class="added-checkout-no-card shadow">
 
 <h4>Checkout</h4>
 <ul class="progressbar">
-<li class="active">Shipping Details</li>
-<li>Add Location</li>
-<li>Billing Details</li>
+<li class="active first-prog">Shipping Details</li>
+<li class="middle">Add Location</li>
+<li class="last">Billing Details</li>
 </ul>
-
 <ol>
 <li>Choose the card you want to use:</li>
 <li><button type="button" class="btn-add-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Add new card &nbsp <img src="imgs/ic_add_more.svg" alt="">
+Add new card &nbsp <img src="imgs/ic_add_more.svg" alt="">
 </button></li>
 </ol>
 
 <div class="Credit-empty text-center">
-  <img src="imgs/ic_empty_cart.svg" alt="">
-  <h5>You didn’t add any cards yet!</h5>
-  <p>You don’t have any cards yet. Try adding a new <br>
-  debit/credit cards and enjoy its benefits.</p>
-  </div>
+<img src="imgs/ic_empty_cart.svg" alt="">
+<h5>You didn’t add any cards yet!</h5>
+<p>You don’t have any cards yet. Try adding a new <br>
+debit/credit cards and enjoy its benefits.</p>
+</div>
 
 </div>
 
@@ -80,7 +79,7 @@
 
 
 
-<div class="status-checkout shadow">
+<div class="status-checkout shadow mod-olc-ord">
 <h4>Summary</h4>
 
 <div class="details-order">
@@ -231,7 +230,7 @@
 <!-- end footer -->
 
 
-  
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog">
@@ -241,44 +240,44 @@
 <a data-bs-dismiss="modal" aria-label="Close" href=""><img src="imgs/ic_exit.svg" alt=""></a>
 </div>
 <div class="modal-body">
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Card Holder Name</label>
-          <input type="Amed" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Card Number</label>
-          <input type="" placeholder="xxxx &nbsp xxxx &nbsp xxxx &nbsp xxxx" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="row">
-            <label class="mb-2" for="">Expiry Date</label>
-            <br>
-            <div class="col">
-               
-              <input type="text" class="form-control" placeholder="MM" aria-label="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="YYY" aria-label="Last name">
-            </div>
-          </div>
+<form>
+<div class="mb-3">
+<label for="exampleInputEmail1" class="form-label">Card Holder Name</label>
+<input type="Amed" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+</div>
+<div class="mb-3">
+<label for="exampleInputPassword1" class="form-label">Card Number</label>
+<input type="" placeholder="xxxx &nbsp xxxx &nbsp xxxx &nbsp xxxx" class="form-control" id="exampleInputPassword1">
+</div>
+<div class="row">
+<label class="mb-2" for="">Expiry Date</label>
+<br>
+<div class="col">
 
-          <div class="row mb-4">
-            <label  for="">CVV</label>
-            <br>
-            <div class="col-6">
-              <input type="text" class="form-control" placeholder="XXX" aria-label="First name">
-            </div>
-          
-          </div>
+<input type="text" class="form-control" placeholder="MM" aria-label="First name">
+</div>
+<div class="col">
+<input type="text" class="form-control" placeholder="YYY" aria-label="Last name">
+</div>
+</div>
+
+<div class="row mb-4">
+<label  for="">CVV</label>
+<br>
+<div class="col-6">
+<input type="text" class="form-control" placeholder="XXX" aria-label="First name">
+</div>
+
+</div>
 
 
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I agree to the <a href="terms.html">Terms & Conditions</a></label>
-        </div>
-        <button  data-bs-dismiss="modal" type="submit" class="">Add Address</button>
-      </form>
-      
+<div class="mb-3 form-check">
+<input type="checkbox" class="form-check-input" id="exampleCheck1">
+<label class="form-check-label" for="exampleCheck1">I agree to the <a href="terms.html">Terms & Conditions</a></label>
+</div>
+<button  data-bs-dismiss="modal" type="submit" class="no-card">Add Address</button>
+</form>
+
 </div>
 
 </div>
