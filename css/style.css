@@ -947,9 +947,23 @@ margin-bottom: 20px;
 }
 .comp-info-card .cm-shad{
 border-radius: 4px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
 }
-
+.back-left-company {
+background-image: url(../imgs/photo/person-company.jpg);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 70vh;
+}
+/* 
+background-image: url(../imgs/photo/pin-number.jpg);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 70vh;
+border-left: solid 10px #fff;
+ */
 .back-left-company img{
 width: 100%;
 }
@@ -971,6 +985,7 @@ margin-left: -40px;
 }
 }
 .form-all-right{
+padding: 20px 40px 20px 40px;
 margin-top: 20px;
 }
 .form-all-right button{
