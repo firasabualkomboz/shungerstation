@@ -1582,6 +1582,7 @@ border-color: #FFCF2D;
 
 
 @media screen and (max-width: 576px) {
+    
 .Credit-cards .pm-row {
 padding: 10px;
 border-radius: 4px;
@@ -1591,6 +1592,12 @@ margin-left: -29px;
 }
 .item-about-credit .img-del img{
 margin-left: 10px;
+}
+.item-about-credit .visa-img{
+    width: 8%;
+}
+.action-add-new{
+margin-bottom: 40px;
 }
 
 }
