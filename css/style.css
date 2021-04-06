@@ -553,11 +553,20 @@ text-decoration: none;
 }
 .about-order .card {
 left: 0%;
-top: 50px;
+/* top: 50px; */
+top: 145px;
 border: #000 solid 2px;
 border-radius: 0;
 width: 100%;
 }
+
+@media screen and (max-width: 779px){
+.about-order .card {
+top: 50px; 
+}
+}
+
+
 .about-order .card ol{
 margin: 0%;
 padding: 0%;
@@ -585,6 +594,12 @@ color: #000;
 .det-pag-all-card ol{
 padding: 0;
 margin: 0;
+}
+
+@media screen and (max-width: 992px){
+.det-pag-all-card{
+margin-top: 20px;
+}
 }
 
 .det-pag-all-card ol li {
@@ -658,13 +673,16 @@ margin-top: 120px;
 margin-bottom: 40px;
 }
 .list-ques{
-padding: 20px;
-border: solid 1px #E2E2E2;
+/* padding: 20px;
+border: solid 1px #E2E2E2; */
 }
 .list-ques ol {
+    border-radius: 4px;
 list-style: none;
 padding: 0;
 margin: 0;
+padding: 20px;
+border: solid 1px #E2E2E2;
 }
 .list-ques ol li{
 text-align: left;
