@@ -1475,6 +1475,11 @@ padding: 10px 80px 10px 80px;
 }
 
 }
+@media screen and (max-width: 576px){
+
+}
+
+
 
 /* **************************************** END STYLE PROFILE MENU ************************************************************** */
 /* **************************************** END STYLE PROFILE MENU ************************************************************** */
@@ -2093,9 +2098,11 @@ color: #434340;
 }
 
 @media screen and (max-width: 576px){
-.table-my-order{
-    margin-top: 10px;
+
+.tot-ord{
+margin-top: 15%;
 }
+
 }
 
 
