@@ -2149,6 +2149,8 @@ text-align: center;
 background-color: #fff;
 color: #434340;
 border: none;
+width: 36px;
+height: 36px;
 }
 .my-order .list-my-order li{
 list-style: none;
@@ -2161,8 +2163,13 @@ border-color: #434340;
 .my-order .table-my-order{
 padding: 20px;
 text-align: center;
-
 }
+@media screen and (max-width: 992px){
+.my-order .table-my-order{
+margin-top: 20px;
+}
+}
+
 .my-order .table-my-order table thead{
 border-bottom: solid #AEAEAC 1px;
 }
@@ -2221,7 +2228,16 @@ margin-top: 15%;
 
 }
 
+@media only screen and (max-width : 321px) {
+.my-order .table-my-order {
+padding: 0px;
+}
+.my-order .list-my-order {
+padding: 10px;
+padding-bottom: 150px;
+}
 
+}
 
 /* end style my order */
 
@@ -2395,6 +2411,9 @@ border-radius: 4px;
 }
 .our-partners .content-our-partners img{
 width: 100%;
+}
+.our-partners .content-our-partners h5{
+    font-size: 16px;
 }
 .our-partners .pagination {
 text-align: center;
