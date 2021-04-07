@@ -998,6 +998,27 @@ padding: 8px 100px 8px 100px;
 
 }
 
+.comp-info-card .progressbar .middle:before {
+border: 1px solid #D8D8D8;
+background-color: #fff !important;
+}
+.comp-info-card .progressbar li.active {
+color: #000 !important;
+}
+
+.comp-info-card .active:before{
+color: #FCE185 !important;
+}
+
+.comp-info-card .middle:before{
+color: #fff !important;
+}
+.comp-info-card .la:before{
+color: #fff !important;
+}
+
+
+
 /* **************************************** END STYLE Company Information ************************************************************** */
 /* **************************************** END STYLE Company Information ************************************************************** */
 
@@ -1061,7 +1082,7 @@ margin-bottom: 20px;
 }
 .comp-info-card .cm-shad{
 border-radius: 4px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .back-left-company img{
@@ -1093,6 +1114,34 @@ border: none;
 border-radius: 4px;
 padding: 8px 100px 8px 100px;
 
+}
+
+.style-comp-prog .progressbar li.active + li:after {
+background-color: #00C060;
+}
+
+.style-comp-prog .progressbar li.active {
+color: #000 !important;
+}
+.style-comp-prog .middle:before{
+color: #FCE185 !important;
+}
+.style-comp-prog .la:before{
+color: #fff !important;
+}
+.style-comp-prog .progressbar .active:before {
+color: #00C060 !important;
+border: 1px solid #04A454;
+background-color: #00C060 !important;
+}
+.style-comp-prog .progressbar .middle:before {
+border: 1px solid #D6BF73;
+background-color: #FCE185 !important;
+}
+
+.style-comp-prog .progressbar .middle:before {
+border: 1px solid #D6BF73;
+background-color: #FCE185 !important;
 }
 
 /* **************************************** END STYLE Restaurant Information ************************************************************** */
