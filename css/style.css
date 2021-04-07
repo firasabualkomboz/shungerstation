@@ -1031,6 +1031,20 @@ color: #00C269 !important;
 .cont-info-prog .progressbar li.active + li:after {
 background-color: #00C060;
 }
+
+.advan{
+margin-left: 180px;
+font-size: 12px;
+}
+
+@media screen and (max-width: 576px){
+.advan{
+margin-left: 50px;
+font-size: 8px;
+}
+}
+
+
 /* **************************************** END STYLE Company Information ************************************************************** */
 /* **************************************** END STYLE Company Information ************************************************************** */
 
