@@ -2506,12 +2506,13 @@ padding: 2px 6px;
 background: rgb(255,207,45);
 background: linear-gradient(90deg, rgba(255,207,45,1) 0%, rgba(255,227,134,1) 0%, rgba(251,247,230,1) 0%, rgba(255,255,255,1) 73%);
 }
-.hero-about-market {padding: 20px 150px 10px 20px;}
+/* .hero-about-market {padding: 20px 150px 10px 20px;} */
 
 .hero-about-market .item-text img {float: left;height: 150px;}
 
 .hero-about-market .item-text{
-margin-top: 30px;
+/* margin-top: 50px; */
+padding-top: 120px;
 text-align: left;
 min-width: 330px;
 }
@@ -2523,7 +2524,6 @@ font-size: 34px;
 font-size: 28px;
 margin-left: 40px;
 }
-
 
 .hero-about-market .item-text ol{
 padding: 0;
@@ -2538,7 +2538,7 @@ display: inline;
 width: 10%;
 }
 .hero-about-market .item-text ol li a img {
-width: 25%;
+width: 20%;
 margin-right: 10px;
 margin-top: -50px;
 }
@@ -2563,5 +2563,64 @@ margin-bottom: 15px;
 .list-quick p{
 color: #434340;
 }
+
+.quick-market-prog .container {
+width: 100%;
+}
+
+.quick-market-prog .progressbar {
+counter-reset: step;
+}
+.quick-market-prog .progressbar li {
+list-style: none;
+display: inline-block;
+width: 12%;
+position: relative;
+text-align: left;
+font-size: 8px;
+}
+.quick-market-prog .progressbar li span{
+width: 20px;
+background-color: red;
+}
+
+.quick-market-prog .progressbar li:before {
+content: counter(step);
+counter-increment: step;
+width: 30px;
+height: 30px;
+line-height: 30px;
+border: 1px solid #ddd;
+border-radius: 100%;
+display: block;
+text-align: center;
+margin: 0 auto 10px auto;
+background-color: #fff;
+}
+.quick-market-prog .progressbar li:after {
+content: "";
+position: absolute;
+width: 100%;
+height: 1px;
+background-color: #ddd;
+top: 15px;
+left: -50%;
+z-index: -1;
+}
+.quick-market-prog .progressbar li:first-child:after {
+content: none;
+}
+.quick-market-prog .progressbar li.active {
+color: green;
+}
+.quick-market-prog .progressbar li.active:before {
+border-color: green;
+background-color: green;
+color: white;
+}
+.quick-market-prog .progressbar li.active + li:after {
+background-color: green;
+}
+
 
 /*  end style quick-market */
