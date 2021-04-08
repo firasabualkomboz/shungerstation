@@ -991,6 +991,11 @@ font-size: 22px;
 margin-left: -40px;
 }
 }
+@media only screen and (max-width: 768px) {
+.com-mail{
+margin-top: 15px;
+}
+}
 .form-all-right{
 padding: 20px 40px 20px 40px;
 margin-top: 20px;
