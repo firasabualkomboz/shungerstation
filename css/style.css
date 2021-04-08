@@ -531,6 +531,12 @@ background-repeat: no-repeat;
 background-size: cover;
 position: relative;
 }
+.list-ma-a li  {
+    margin-right: 25px;
+}
+.list-ma-b li  {
+    margin-right: 15px;
+}
 .btn-go-check{
 background-color: #00C269;
 border-radius: 4px;
@@ -572,8 +578,9 @@ margin: 0%;
 padding: 0%;
 }
 .about-order .card ol li {
+font-size: 12px;
 display: inline;
-margin: 20px;
+/* margin: 20px; */
 }
 
 .about-order-card{
@@ -1244,7 +1251,7 @@ padding: 20px;
 margin-bottom: 20px;
 background: rgb(217,242,231);
 background: linear-gradient(90deg, rgba(217,242,231,1) 19%, rgba(255,255,255,1) 23%);
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
 }
 .item-card-be-rest h4 {
@@ -1272,15 +1279,36 @@ margin-bottom: 80px;
 counter-reset: step;
 margin-top: 40px;
 margin-bottom: 40px;
+/* margin: 40px; */
+position: relative;
+right: -4%;
 }
 .be-rest  .progressbar li {
 list-style: none;
 display: inline-block;
-width:15.33%;
+width:12.33%;
 position: relative;
 text-align: center;
 cursor: pointer;
 }
+
+@media screen and (max-width: 992px){
+.be-rest  .progressbar li {
+width:15.33%;
+}
+}
+@media screen and (max-width: 768px){
+.be-rest  .progressbar li {
+width:22.33%;
+}
+}
+@media screen and (max-width: 576px){
+.be-rest  .progressbar li {
+width:24.33%;
+}
+}
+
+
 .be-rest  .progressbar li:before {
 content: counter(step);
 counter-increment: step;
