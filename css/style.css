@@ -561,7 +561,7 @@ text-decoration: none;
 left: 0%;
 /* top: 50px; */
 top: 145px;
-border: #000 solid 2px;
+/* border: #434340 solid 1px; */
 border-radius: 0;
 width: 100%;
 }
@@ -602,7 +602,9 @@ color: #000;
 padding: 0;
 margin: 0;
 }
-
+.img-app-det{
+    padding: 10px 4px;
+}
 @media screen and (max-width: 992px){
 .det-pag-all-card{
 margin-top: 20px;
