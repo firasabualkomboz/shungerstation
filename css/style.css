@@ -1255,7 +1255,7 @@ background-color: #FFD700;
 .be-rest-card{
 position: relative;
 margin-top: 10%;
-margin-bottom: 10%;
+margin-bottom: 5%;
 }
 
 .item-card-be-rest{
@@ -1266,8 +1266,6 @@ padding: 20px;
 margin-bottom: 20px;
 background: rgb(217,242,231);
 background: linear-gradient(90deg, rgba(217,242,231,1) 19%, rgba(255,255,255,1) 23%);
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-
 }
 .item-card-be-rest h4 {
 color: #434340;
@@ -1283,84 +1281,32 @@ margin: 0 auto 0 0;
 }
 @media only screen and (max-width: 768px){
 .be-rest-card{
-margin-top: 60%;
+margin-top: 10%;
 margin-bottom: 5%;
 }
 }
+@media only screen and (max-width: 576px){
+.be-rest-card{
+margin-top: 30%;
+margin-bottom: 5%;
+}
+}
+@media only screen and (max-width: 376px){
+.be-rest-card{
+margin-top: 70%;
+margin-bottom: 5%;
+}
+}
+@media only screen and (max-width: 321px){
+  .be-rest-card{
+  margin-top: 90%;
+  margin-bottom: 5%;
+  }
+  }
 .be-rest{
 margin-bottom: 80px;
 }
-.be-rest .progressbar {
-counter-reset: step;
-margin-top: 40px;
-margin-bottom: 40px;
-/* margin: 40px; */
-position: relative;
-right: -4%;
-}
-.be-rest  .progressbar li {
-list-style: none;
-display: inline-block;
-width:12.33%;
-position: relative;
-text-align: center;
-cursor: pointer;
-}
 
-@media screen and (max-width: 992px){
-.be-rest  .progressbar li {
-width:15.33%;
-}
-}
-@media screen and (max-width: 768px){
-.be-rest  .progressbar li {
-width:22.33%;
-}
-}
-@media screen and (max-width: 576px){
-.be-rest  .progressbar li {
-width:24.33%;
-}
-}
-
-
-.be-rest  .progressbar li:before {
-content: counter(step);
-counter-increment: step;
-width: 30px;
-height: 30px;
-line-height: 30px;
-border: 1px solid #FCE185;
-border-radius: 100%;
-display: block;
-text-align: center;
-margin: 0 auto 10px auto;
-background-color: #FCE185;
-}
-.be-rest .progressbar li:after {
-content: "";
-position: absolute;
-width: 100%;
-height: 1px;
-background-color: #ddd;
-top: 15px;
-left: -50%;
-z-index: -1;
-}
-.be-rest  .progressbar li:first-child:after {
-content: none;
-}
-.be-rest  .progressbar li.active {
-color: green;
-}
-.be-rest   .progressbar li.active:before {
-border-color: #00C269;
-background-color: #00C269;
-color: white;
-}
-.be-rest   .progressbar li.active + li:after {
-background-color: #00C269;
-}
 .be-rest button{
 padding: 8px 60px 8px 60px;
 background-color: #ffd700;
@@ -1371,6 +1317,80 @@ border: none;
 color: #434340;
 text-decoration: none;
 }
+
+
+.be-rest-prg .multi-steps > li.is-active ~ li:before, .multi-steps > li.is-active:before {
+content: counter(stepNum);
+font-family: inherit;
+font-weight: 700;
+}
+.be-rest-prg .multi-steps > li.is-active ~ li:after, .multi-steps > li.is-active:after {
+background-color: #ededed;
+}
+
+.be-rest-prg  .multi-steps {
+display: table;
+table-layout: fixed;
+width: 100%;
+}
+.be-rest-prg .multi-steps > li {
+counter-increment: stepNum;
+text-align: center;
+display: table-cell;
+position: relative;
+color: #434340;
+}
+.be-rest-prg .multi-steps > li:before {
+content: "";
+content: "✓;";
+content: "𐀃";
+content: "𐀄";
+content: "✓";
+display: block;
+margin: 0 auto 4px;
+background-color: #FCE185;
+width: 36px;
+height: 36px;
+line-height: 32px;
+text-align: center;
+font-weight: bold;
+border-width: 2px;
+border-style: solid;
+border-color: #FCE185;
+border-radius: 50%;
+}
+.be-rest-prg .multi-steps > li:after {
+content: "";
+height: 2px;
+width: 100%;
+background-color: #E1E1E1;
+position: absolute;
+top: 16px;
+left: 50%;
+z-index: -1;
+}
+.be-rest-prg .multi-steps > li:last-child:after {
+display: none;
+}
+.be-rest-prg .multi-steps > li.is-active:before {
+background-color:#FCE185 ;
+border-color:#E1E1E1 ;
+}
+.be-rest-prg  .multi-steps > li.is-active ~ li {
+color: #808080;
+}
+.be-rest-prg  .multi-steps > li.is-active ~ li:before {
+background-color: #ededed;
+border-color: #ededed;
+}
+.be-rest-prg .multi-steps li span{
+font-size: 12px;
+color: #434340;
+text-align: left;
+
+}
+
+  
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 
@@ -2640,74 +2660,74 @@ background-color: green;
 
 
 .multi-steps > li.is-active ~ li:before, .multi-steps > li.is-active:before {
-content: counter(stepNum);
-font-family: inherit;
-font-weight: 700;
-}
-.multi-steps > li.is-active ~ li:after, .multi-steps > li.is-active:after {
-background-color: #ededed;
-}
-
-.multi-steps {
-display: table;
-table-layout: fixed;
-width: 100%;
-}
-.multi-steps > li {
-counter-increment: stepNum;
-text-align: center;
-display: table-cell;
-position: relative;
-color: #434340;
-}
-.multi-steps > li:before {
-content: "";
-content: "✓;";
-content: "𐀃";
-content: "𐀄";
-content: "✓";
-display: block;
-margin: 0 auto 4px;
-background-color: #FCE185;
-width: 36px;
-height: 36px;
-line-height: 32px;
-text-align: center;
-font-weight: bold;
-border-width: 2px;
-border-style: solid;
-border-color: #FCE185;
-border-radius: 50%;
-}
-.multi-steps > li:after {
-content: "";
-height: 2px;
-width: 100%;
-background-color: #E1E1E1;
-position: absolute;
-top: 16px;
-left: 50%;
-z-index: -1;
-}
-.multi-steps > li:last-child:after {
-display: none;
-}
-.multi-steps > li.is-active:before {
-background-color:#FCE185;
-border-color:#E1E1E1;
-}
-.multi-steps > li.is-active ~ li {
-color: #808080;
-}
-.multi-steps > li.is-active ~ li:before {
-background-color: #ededed;
-border-color: #ededed;
-}
-.multi-steps li span{
-font-size: 12px;
-color: #434340;
-text-align: left;
-
-}
-
+  content: counter(stepNum);
+  font-family: inherit;
+  font-weight: 700;
+  }
+  .multi-steps > li.is-active ~ li:after, .multi-steps > li.is-active:after {
+  background-color: #ededed;
+  }
+  
+  .multi-steps {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  }
+  .multi-steps > li {
+  counter-increment: stepNum;
+  text-align: center;
+  display: table-cell;
+  position: relative;
+  color: #434340;
+  }
+  .multi-steps > li:before {
+  content: "";
+  content: "✓;";
+  content: "𐀃";
+  content: "𐀄";
+  content: "✓";
+  display: block;
+  margin: 0 auto 4px;
+  background-color: #FCE185;
+  width: 36px;
+  height: 36px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FCE185;
+  border-radius: 50%;
+  }
+  .multi-steps > li:after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #E1E1E1;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  z-index: -1;
+  }
+  .multi-steps > li:last-child:after {
+  display: none;
+  }
+  .multi-steps > li.is-active:before {
+  background-color:#FCE185;
+  border-color:#E1E1E1;
+  }
+  .multi-steps > li.is-active ~ li {
+  color: #808080;
+  }
+  .multi-steps > li.is-active ~ li:before {
+  background-color: #ededed;
+  border-color: #ededed;
+  }
+  .multi-steps li span{
+  font-size: 12px;
+  color: #434340;
+  text-align: left;
+  
+  }
+  
 /*  end style quick-market */
