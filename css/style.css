@@ -2327,6 +2327,10 @@ float: right;
 /* end style complaint */
 
 /* start style filter page */
+.filter-page .form-check-input:checked {
+background-color: #00C269;
+border-color: #00C269;
+}
 .filter-page{
 margin-top: 120px;
 }
@@ -2351,6 +2355,8 @@ text-align: center;
 background-color: #fff;
 color: #434340;
 border: none;
+width: 36px;
+height: 36px;
 }
 .filter-page .list-filter li{
 list-style: none;
@@ -2377,6 +2383,11 @@ list-style: none;
 padding: 0;
 margin: 0;
 font-size: 14px;
+position: relative;
+left: 10px;;
+}
+.about-food ol li:nth-of-type(2){
+font-size: 12px;
 }
 
 .filter-page .top-offers a{
@@ -2424,6 +2435,23 @@ margin: 0 auto;
 text-align: center;
 border-radius: 4px;
 }
+@media screen and (max-width: 576px){
+.filter-page .pagination a{
+padding: 2px 6px;
+}
+}
+.filter-page input[type=range]::-webkit-slider-thumb {
+    background: red !important;
+}
+.filter-page input[type=range]::-moz-range-thumb {
+    background: red !important;
+}
+.filter-page input[type=range]::-ms-thumb {
+    background: red !important;
+}
+
+
+
 /* .filter-page .pagination a:last-child{
 padding: 0;
 border: 0;
