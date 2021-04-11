@@ -486,13 +486,13 @@ Creamy Ranch
 
 </div>
 </div>
-<div class="modal-footer">
+<div class="modal-footer" id="modalv">
 <ol>
-<li><a href=""><img src="imgs/ic_decrease.svg" alt=""></a></li>
-<li>2</li>
-<li><a href=""><img src="imgs/ic_increase.svg" alt=""></a></li>
+<li><span style="cursor: pointer;" @click="count_order_modal -- "> <img src="imgs/ic_decrease.svg" alt=""> </span></li>
 
-
+<li> {{count_order_modal}}</li>
+<!-- <li><a @click="count_order_modal ++" href=""><img src="imgs/ic_increase.svg" alt=""></a></li> -->
+<li><span style="cursor: pointer;" @click="count_order_modal ++ "> <img src="imgs/ic_increase.svg" alt=""> </span></li>
 </ol>
 <button type="button"  data-bs-dismiss="modal" class="">Add</button> 
 </div>
@@ -501,6 +501,10 @@ Creamy Ranch
 </div>
 <!-- emd modal details #1 -->
 <!-- js file  -->
+<div id="modalv">
+  {{count_order_modal}}
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -514,5 +518,7 @@ Creamy Ranch
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <!-- end style added to active bootstrap  -->
 <!-- end script file  -->
+
+
 </body>
 </html>

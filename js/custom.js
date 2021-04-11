@@ -16,3 +16,13 @@ map: map,
 
 // get my location 
 
+// vue js 
+
+var modelvue = new Vue ({
+    el: '#modalv',
+    data:{
+        
+        count_order_modal : 0,
+        
+    }
+}) 
