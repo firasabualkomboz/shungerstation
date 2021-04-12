@@ -1522,6 +1522,14 @@ outline: none;
 display: inline;
 margin-right: 5px;
 }
+.user-info-login span ol li:last-child{
+    float: right;
+}
+@media screen and (max-width: 480px){
+.user-info-login span ol .edit-ph-num{
+width: 60% !important;
+}
+}
 @media screen and (max-width: 321px){
 .user-info-login span ol{
 padding: 0;
@@ -1533,7 +1541,7 @@ padding: 0px !important;
 width: 35px !important;
 }
 .user-info-login span ol .edit-ph-num{
-    width: 70%;
+width: 70%;
 }
 .user-info-login span ol li {
 display: inline;
@@ -1646,6 +1654,12 @@ border-radius: 4px;
 padding: 5px;
 border: solid 1px #E7E7E7;
 border-radius: 4px;
+}
+
+@media only screen and (max-width :1200px){
+.abou-pin-image{
+border-left: solid 10px #fff;
+}
 }
 @media only screen and (max-width :1150px)
 {
