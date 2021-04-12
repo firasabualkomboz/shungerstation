@@ -1534,7 +1534,7 @@ padding: 0px !important;
 width: 35px !important;
 }
 .user-info-login span ol .edit-ph-num{
-width: 70%;
+width: 80% !important;
 }
 .user-info-login span ol li {
 display: inline;
