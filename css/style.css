@@ -1483,32 +1483,26 @@ margin-top: 120px;
 .info-pin-log-user{
 padding-top: 20px;
 /* box-shadow: 10px 0px 15px -2px #888; */
-
 }
-.abou-pin-image {
-/* box-shadow: 5px 0px 5px -2px #888; */
-
-}
-.user-info-login span { 
-margin-bottom: 100px;
-}
+.user-info-login span:first-child{
+    color: #AFAFAF;
+    }
 .user-info-login .spa{
-padding: 20px;
+padding: 10px;
 margin-bottom: 100px;
+}
+.user-info-login span ol li:last-child{
+float: right;
 }
 .user-info-login span ol{
 border: #EEF1F5 solid 1px;
-max-width: 250px;
+max-width: 260px;
 border-radius: 4px;
 }
 
-.user-info-login span:first-child{
-color: #AFAFAF;
-}
 .user-info-login span ol { 
 list-style: none;
 padding: 5px 10px 5px 10px;
-/* padding: 0; */
 margin: 0;
 }
 .user-info-login span ol li input{
@@ -1522,20 +1516,19 @@ outline: none;
 display: inline;
 margin-right: 5px;
 }
-.user-info-login span ol li:last-child{
-    float: right;
-}
+
 @media screen and (max-width: 480px){
 .user-info-login span ol .edit-ph-num{
 width: 60% !important;
 }
 }
-@media screen and (max-width: 321px){
+@media screen and (max-width: 325px){
 .user-info-login span ol{
 padding: 0;
 }
 .user-info-login span ol img {
-width: 10%;    }
+width: 10%;  
+}
 .cd-pin-list ol li input {
 padding: 0px !important;
 width: 35px !important;
@@ -1550,7 +1543,6 @@ margin-right: 0px;
 }
 
 
-
 .sy-pad{
 margin-left: 40px;
 }
@@ -1559,14 +1551,6 @@ border: 0;
 border-radius: 0;
 border-bottom: solid 1px#E2E2E2;
 }
-/* .phone-inp-edit{
-border: 0;
-border-radius: 0;
-}
-.phone-inp-edit:active{
-border: 0;
-border-radius: 0;
-} */
 .pin-log-user .info-pin-log-user .form-control {
 border: 0;
 border-radius: 0;
