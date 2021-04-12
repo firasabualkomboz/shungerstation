@@ -1482,6 +1482,12 @@ margin-top: 120px;
 }
 .info-pin-log-user{
 padding-top: 20px;
+/* box-shadow: 10px 0px 15px -2px #888; */
+
+}
+.abou-pin-image {
+/* box-shadow: 5px 0px 5px -2px #888; */
+
 }
 .user-info-login span { 
 margin-bottom: 100px;
@@ -1516,7 +1522,7 @@ outline: none;
 display: inline;
 margin-right: 5px;
 }
-@media screen and (max-width: 281px){
+@media screen and (max-width: 321px){
 .user-info-login span ol{
 padding: 0;
 }
@@ -1619,12 +1625,12 @@ color: #434340;
 }
 
 .abou-pin-image{
-background-image: url(../imgs/photo/pin-number.jpg);
+background-image: url(../imgs/photo/pin.jpg);
 background-position: center; 
 background-repeat: no-repeat;
 background-size: cover;
 min-height: 70vh;
-border-left: solid 10px #fff;
+/* border-left: solid 10px #fff; */
 }
 .pin-log-user .row:first-child{
 margin-right: 0
