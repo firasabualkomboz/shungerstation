@@ -1491,9 +1491,9 @@ padding-top: 20px;
 padding: 10px;
 margin-bottom: 100px;
 }
-.user-info-login span ol li:last-child{
+/* .user-info-login span ol li:last-child{
 float: right;
-}
+} */
 .user-info-login span ol{
 border: #EEF1F5 solid 1px;
 max-width: 260px;
@@ -1519,10 +1519,11 @@ margin-right: 5px;
 
 @media screen and (max-width: 480px){
 .user-info-login span ol .edit-ph-num{
-width: 60% !important;
+width: 10% !important;
 }
 }
 @media screen and (max-width: 325px){
+
 .user-info-login span ol{
 padding: 0;
 }
@@ -1533,15 +1534,17 @@ width: 10%;
 padding: 0px !important;
 width: 35px !important;
 }
-.user-info-login span ol .edit-ph-num{
-width: 80% !important;
-}
 .user-info-login span ol li {
 display: inline;
 margin-right: 0px;
 }
 }
-
+@media screen and (max-width:280px) {
+    .user-info-login span ol{
+  
+        
+    }
+}
 
 .sy-pad{
 margin-left: 40px;
