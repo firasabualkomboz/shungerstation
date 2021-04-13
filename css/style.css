@@ -1497,6 +1497,7 @@ border-radius: 4px;
 list-style: none;
 padding: 5px;
 margin: 0;
+max-width: 260px;
 }
 .user-info-login span ol li input{
 border: none;
@@ -1526,9 +1527,9 @@ margin-right: 0px;
 }
 @media only screen and (min-width: 480px) {
 
-.user-info-login span ol {
+/* .user-info-login span ol {
 width: 55%;
-}
+} */
 }
 
 .sy-pad{
