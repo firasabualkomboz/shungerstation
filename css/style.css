@@ -1540,10 +1540,8 @@ margin-right: 0px;
 }
 }
 @media screen and (max-width:280px) {
-    .user-info-login span ol{
-  
-        
-    }
+.user-info-login span ol{
+}
 }
 
 .sy-pad{
