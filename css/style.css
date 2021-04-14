@@ -332,6 +332,9 @@ margin-left: 20px;
 }
 
 /* start home-card-fish  */
+.home-card-fish {
+    margin: 20px 0px 20px;
+}
 .home-card-fish .card{
 border: none;
 padding: 20px;
@@ -341,7 +344,6 @@ text-transform: capitalize;
 }
 .home-card-fish .fish-one{
 background-color: #ebfaff;
-
 }
 .home-card-fish .fish-two{
 background-color: #e4fdf2;
