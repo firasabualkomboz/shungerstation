@@ -1457,7 +1457,11 @@ border-color: #ededed;
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 
 /* start Verify your phone number   */
-
+.app-phone{
+    margin: 10% auto;
+    width: 70%;
+    border: 3px solid green;
+}
 .auth-log-user{
 margin-top: 120px;
 }
