@@ -429,6 +429,8 @@ background-color: #fff;
 text-align: left;
 font-size: 18px;
 margin-left:20px;
+position: relative;
+top: -13px;
 }
 
 .owl-carousel .item {
