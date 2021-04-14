@@ -1455,12 +1455,20 @@ border-color: #ededed;
 
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
 /* **************************************** END STYLE BE A Restaurant ************************************************************** */
-
+/* style mam-app  */
+.mam-app{
+margin: 10% auto;
+width: 70%;
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.mam-app .about-auth-info{
+padding: 80px 40px 30px 40px;
+}
 /* start Verify your phone number   */
 .app-phone{
-    margin: 10% auto;
-    width: 70%;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+margin: 10% auto;
+width: 70%;
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 .about-auth-info {
 
@@ -1498,20 +1506,32 @@ color: #434340;
         width: 100%;
         box-shadow: none !important;
     } 
+    .mam-app{
+        width: 100%;
+        box-shadow: none !important;
+    } 
 }
 @media only screen and (max-width: 425px){
-    .about-auth-info button{
-        padding: 10px 80px 10px 80px;
-        background-color: #FFD700;
-        color: #434340;
-        border: none;
-        border-radius: 4px;
-        margin-top: 20px;
-        }
-        .abou-auth-image{
-          
-            border-left: solid 10px #fff;
-            }
+.about-auth-info button{
+padding: 10px 80px 10px 80px;
+background-color: #FFD700;
+color: #434340;
+border: none;
+border-radius: 4px;
+margin-top: 20px;
+}
+.mam-app .about-auth-info button{
+    padding: 10px 80px 10px 80px;
+background-color: #FFD700;
+color: #434340;
+border: none;
+border-radius: 4px;
+margin-top: 20px;
+}
+.abou-auth-image{
+
+border-left: solid 10px #fff;
+}
 }
 .auth-log-user{
 margin-top: 120px;
@@ -1733,11 +1753,11 @@ border: solid 1px #E7E7E7;
 border-radius: 4px;
 }
 
-@media only screen and (max-width :1200px){
+/* @media only screen and (max-width :1200px){
 .abou-pin-image{
 border-left: solid 10px #fff;
 }
-}
+} */
 @media only screen and (max-width :1150px)
 {
 .pin-log-user .about-added-number{
