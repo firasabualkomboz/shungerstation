@@ -299,7 +299,6 @@ border-radius: 8px;
 text-transform: capitalize;
 }
 .app-example .back-tie-one{
-
 background-color: #ebfaff;
 }
 .app-example .back-tie-two{
@@ -308,9 +307,8 @@ background-color: #e4fdf2;
 .image-item-example img{
 margin-top: 40px;
 }
-.app-example .item-example img:firs{
+.app-example .item-example img:first{
 float: left;
-
 }
 .app-example .item-example .text-item-example{
 margin: -20px 40px 80px 60px ;
@@ -333,6 +331,29 @@ width: 25%;
 margin-left: 20px;
 }
 
+/* start home-card-fish  */
+.home-card-fish .card{
+border: none;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+text-transform: capitalize;
+}
+.home-card-fish .fish-one{
+background-color: #ebfaff;
+
+}
+.home-card-fish .fish-two{
+background-color: #e4fdf2;
+}
+.home-card-fish .card a{
+float: right;
+color: #000;
+text-decoration: none;
+}
+.home-card-fish .card a img {
+width: 25%;
+}
 /* end app-example */
 
 /* start swip  */
