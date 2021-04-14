@@ -1460,6 +1460,7 @@ border-color: #ededed;
 .app-phone{
     margin: 10% auto;
     width: 70%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 .about-auth-info {
 
@@ -1495,6 +1496,7 @@ color: #434340;
 {
     .app-phone{
         width: 100%;
+        box-shadow: none !important;
     } 
 }
 @media only screen and (max-width: 425px){
@@ -1506,6 +1508,10 @@ color: #434340;
         border-radius: 4px;
         margin-top: 20px;
         }
+        .abou-auth-image{
+          
+            border-left: solid 10px #fff;
+            }
 }
 .auth-log-user{
 margin-top: 120px;
