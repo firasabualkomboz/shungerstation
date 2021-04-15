@@ -7,30 +7,30 @@ html{
 height: 100%;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
-    }
-    
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    }
-    
-    .dropdown:hover .dropdown-content {
-    display: block;
-    }
-    
-    
-    .dropdown-content li a:hover{
-    margin-left: 5px;
-    color: black;
-    transition: all .3s .3s;
-    }
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+.dropdown-content li a:hover{
+margin-left: 5px;
+color: black;
+transition: all .3s .3s;
+}
 /* start style navbar  */
 /* .nu-nav{
 margin-top: 20px;
@@ -1200,15 +1200,15 @@ font-size: 22px;
 }
 /* @media only screen and (min-width: 1097px) {
 
-    .text-in-lc {
-        left: 15%;
-    }
+.text-in-lc {
+left: 15%;
+}
 }
 @media only screen and (min-width: 1197px) {
 
-    .text-in-lc {
-        left: 5%;
-    }
+.text-in-lc {
+left: 5%;
+}
 } */
 @media only screen and (max-width: 600px) {
 
@@ -1487,42 +1487,42 @@ box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 
 }
 .app-phone .about-auth-info{
-    padding: 80px 40px 30px 40px;
+padding: 80px 40px 30px 40px;
 
 }
 .about-auth-info .form-select{
-    border: 0;
-    border-radius: 0;
-    border-bottom: solid 1px#E2E2E2;
-    }
-    .about-auth-info .form-control {
-    border: 0;
-    border-radius: 0;
-    border-bottom: solid 1px#E2E2E2;
-    }
-    .about-auth-info a{
+border: 0;
+border-radius: 0;
+border-bottom: solid 1px#E2E2E2;
+}
+.about-auth-info .form-control {
+border: 0;
+border-radius: 0;
+border-bottom: solid 1px#E2E2E2;
+}
+.about-auth-info a{
 text-decoration: none;
 color: #434340;
-    }
-    .about-auth-info button{
-    padding: 10px 150px 10px 150px;
-    background-color: #FFD700;
-    color: #434340;
-    border: none;
-    border-radius: 4px;
-    margin-top: 20px;
-    }
+}
+.about-auth-info button{
+padding: 10px 150px 10px 150px;
+background-color: #FFD700;
+color: #434340;
+border: none;
+border-radius: 4px;
+margin-top: 20px;
+}
 @media only screen and (max-width :1200px)
 
 {
-    .app-phone{
-        width: 100%;
-        box-shadow: none !important;
-    } 
-    .mam-app{
-        width: 100%;
-        box-shadow: none !important;
-    } 
+.app-phone{
+width: 100%;
+box-shadow: none !important;
+} 
+.mam-app{
+width: 100%;
+box-shadow: none !important;
+} 
 }
 @media only screen and (max-width: 425px){
 .about-auth-info button{
@@ -1534,7 +1534,7 @@ border-radius: 4px;
 margin-top: 20px;
 }
 .mam-app .about-auth-info button{
-    padding: 10px 80px 10px 80px;
+padding: 10px 80px 10px 80px;
 background-color: #FFD700;
 color: #434340;
 border: none;
